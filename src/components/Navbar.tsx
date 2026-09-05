@@ -12,7 +12,7 @@ export default function Navbar() {
   const whatsappUrl = getWhatsAppUrl();
 
   const navLinks = [
-    { label: "Nuestras Flores", href: "#galeria" },
+    { label: "Flores de Estación", href: "#galeria" },
     { label: "Servicios", href: "#servicios" },
     { label: "Envíos", href: "#envios" },
     { label: "Nuestra Historia", href: "#historia" },

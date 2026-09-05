@@ -26,49 +26,33 @@ export default function FlowerGallery() {
           </p>
         </div>
 
-        {/* Flower Grid (6 cards: photo, flower name, WhatsApp action) */}
+        {/* Flower Grid (6 cards: photo and flower name) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12">
-          {catalogoData.floresHabituales.items.map((flor) => {
-            const flowerWhatsappUrl = getWhatsAppUrl(
-              `Hola, quisiera consultar por disponibilidad de ${flor.nombre} en Florería Memorial.`
-            );
-
-            return (
-              <div
-                key={flor.id}
-                className="group bg-white rounded-3xl overflow-hidden border border-[#E8E2D8] hover:border-[#26402B]/40 transition-all duration-300 hover:shadow-lg flex flex-col"
-              >
-                {/* Image */}
-                <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#EAE3D7]">
-                  <Image
-                    src={flor.imagen}
-                    alt={flor.nombre}
-                    fill
-                    quality={95}
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
-                  />
-                </div>
-
-                {/* Card footer: Only Name & WhatsApp action */}
-                <div className="p-5 flex items-center justify-between bg-white border-t border-[#F0EAE0]">
-                  <h3 className="font-serif text-lg sm:text-xl font-bold text-[#1D2520]">
-                    {flor.nombre}
-                  </h3>
-                  <a
-                    href={flowerWhatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E8EFE9] hover:bg-[#25D366] text-[#26402B] hover:text-white transition-all text-xs font-semibold shadow-2xs"
-                    aria-label={`Consultar disponibilidad de ${flor.nombre} por WhatsApp`}
-                  >
-                    <WhatsAppIcon className="w-3.5 h-3.5 fill-current" />
-                    <span>Pedir</span>
-                  </a>
-                </div>
+          {catalogoData.floresHabituales.items.map((flor) => (
+            <div
+              key={flor.id}
+              className="group bg-white rounded-3xl overflow-hidden border border-[#E8E2D8] hover:border-[#26402B]/40 transition-all duration-300 hover:shadow-lg flex flex-col"
+            >
+              {/* Image */}
+              <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#EAE3D7]">
+                <Image
+                  src={flor.imagen}
+                  alt={flor.nombre}
+                  fill
+                  quality={95}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                />
               </div>
-            );
-          })}
+
+              {/* Card footer: Only Name */}
+              <div className="p-5 text-center bg-white border-t border-[#F0EAE0]">
+                <h3 className="font-serif text-lg sm:text-xl font-bold text-[#1D2520]">
+                  {flor.nombre}
+                </h3>
+              </div>
+            </div>
+          ))}
         </div>
 
         {/* Prominent CTA below cards */}

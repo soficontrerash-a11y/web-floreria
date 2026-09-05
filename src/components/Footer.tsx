@@ -61,7 +61,7 @@ export default function Footer() {
             <ul className="space-y-2 text-xs sm:text-sm text-[#BDCEBF]">
               <li>
                 <a href="#galeria" className="hover:text-white transition-colors">
-                  Nuestras Flores
+                  Flores de Estación
                 </a>
               </li>
               <li>

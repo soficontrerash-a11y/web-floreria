@@ -24,13 +24,13 @@
     "titulo": "Florería Memorial",
     "subtitulo": "Más de 30 años acompañándote con flores frescas, calidez y atención personalizada en Pilar.",
     "aclaracion": "Ramos de estación confeccionados en el día con flores frescas. Atendemos en nuestro local y realizamos envíos a domicilio en la zona.",
-    "ctaFlores": "Ver Nuestras Flores",
+    "ctaFlores": "Ver Flores de Estación",
     "ctaWhatsapp": "Consultar por WhatsApp",
     "mensajeWhatsapp": "Hola, me gustaría consultar por los ramos y flores frescas disponibles en Florería Memorial.",
     "imagenHero": "/rosas.jpg"
   },
   "floresHabituales": {
-    "titulo": "Nuestras Flores Habituales",
+    "titulo": "Flores de Estación",
     "subtitulo": "Trabajamos con flores de estación para armar nuestros ramos. Consultanos por el stock disponible de la semana.",
     "ctaWhatsapp": "Consultar disponibilidad por WhatsApp",
     "items": [
@@ -56,7 +56,7 @@
       },
       {
         "id": "lilium",
-        "nombre": "Lilium Blancos",
+        "nombre": "Lilium",
         "imagen": "/lilium.jpg"
       },
       {
