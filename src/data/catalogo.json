@@ -1,20 +1,21 @@
 {
   "negocio": {
-    "nombre": "Taller Floral Pilar",
-    "nombreCompleto": "Taller Floral Familiar en Pilar",
+    "nombre": "Florería Memorial",
+    "nombreCompleto": "Florería Memorial — Taller Floral Familiar",
     "lema": "Flores frescas de mercado, oficio artesanal y envíos en Pilar",
-    "telefonoWhatsapp": "+5491100000000",
-    "telefonoWhatsappSinPrefijo": "5491100000000",
-    "telefonoMostrar": "+54 9 11 0000-0000",
-    "instagramUser": "floreria.pilar",
-    "instagramUrl": "https://instagram.com",
-    "email": "contacto@floreriapilar.com.ar",
-    "ubicacionCorta": "Panamericana Ramal Pilar Km 47, Pilar",
-    "ubicacion": "Local en Florería Memorial — Predio Cementerio Parque Memorial, Panamericana Ramal Pilar Km 47 (La Lonja / Pilar).",
-    "googleMapsUrl": "https://maps.google.com/?q=Cementerio+Parque+Memorial+Pilar",
-    "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13155.882963162795!2d-58.8529!3d-34.4601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9cf8019b8bd5%3A0xa19bfcf1f8a846c4!2sCementerio%20Parque%20Memorial!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar",
-    "horariosAtencion": "Lunes a Domingo de 8:00 a 18:00 hs",
-    "horariosEnvios": "Lunes a Sábado con reserva previa"
+    "telefonoFijo": "0230 447-2589",
+    "telefonoWhatsapp": "+541128271190",
+    "telefonoWhatsappSinPrefijo": "541128271190",
+    "telefonoMostrar": "+54 11 2827-1190",
+    "instagramUser": "floresparquememo",
+    "instagramUrl": "https://www.instagram.com/floresparquememo/",
+    "email": "floresdelparquemontoya@gmail.com",
+    "ubicacionCorta": "Ruta 8, km 46, Ramal Pilar, Pilar",
+    "ubicacion": "Cementerio Memorial. Ruta 8, km 46, ramal Pilar, Pilar, Argentina.",
+    "googleMapsUrl": "https://www.google.com/maps/place/Floreria+Memorial/@-34.4409351,-58.8376521,17z/data=!4m6!3m5!1s0x95bc9da05db8eb71:0xe2cf2e85cc423350!8m2!3d-34.4409351!4d-58.8376521!16s%2Fg%2F11j7g_pw6j?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+    "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.049405624796!2d-58.8376521!3d-34.4409351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9da05db8eb71%3A0xe2cf2e85cc423350!2sFloreria%20Memorial!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar",
+    "horariosAtencion": "Martes a Domingos de 09:00 a 17:00 hs",
+    "horariosEnvios": "Envíos a domicilio y colocación de ramos con reserva previa"
   },
   "hero": {
     "badge": "Oficio floral tradicional • Pilar",
@@ -134,10 +135,10 @@
   },
   "instagramBanner": {
     "titulo": "Seguinos en Instagram para ver las flores frescas que ingresan los miércoles y los arreglos disponibles para el fin de semana.",
-    "subtitulo": "Compartimos en historias las variedades que llegan del mercado central y las creaciones del día.",
+    "subtitulo": "Compartimos en historias nuestras últimas creaciones, novedades y promociones especiales.",
     "badge": "Stock fresco semanal en tiempo real",
     "boton": "Ver novedades en Instagram",
-    "tagInstagram": "@floreria.pilar"
+    "tagInstagram": "@floresparquememo"
   },
   "envios": {
     "titulo": "Llevamos flores frescas a tu puerta.",
@@ -202,11 +203,14 @@
     "imagenFachada": "/fachada-local.jpg",
     "pieDeFotoFachada": "Nuestro puesto tradicional en Pilar, donde la frescura y la dedicación familiar se encuentran desde hace más de 30 años.",
     "localTitulo": "Dónde Encontrarnos",
-    "localNombre": "Florería Memorial — Predio Cementerio Parque Memorial",
-    "direccion": "Panamericana Ramal Pilar Km 47 (La Lonja / Pilar)",
-    "referencia": "Fácil acceso desde colectora Panamericana, con estacionamiento propio.",
-    "horariosAtencion": "Atención presencial: Lunes a Domingo de 8:00 a 18:00 hs.",
-    "telefono": "(0230) 447-0000 / +54 9 11 0000-0000",
+    "localNombre": "Florería Memorial — Cementerio Memorial",
+    "direccion": "Cementerio Memorial. Ruta 8, km 46, ramal Pilar, Pilar, Argentina.",
+    "referencia": "Fácil acceso en el predio de Cementerio Memorial, con estacionamiento propio.",
+    "invitacion": "Podés visitarnos directamente en el local de martes a domingos de 09 a 17hs o contactarnos para coordinar un pedido con entrega a domicilio y/o servicio de colocación de ramos.",
+    "horariosAtencion": "Martes a Domingos de 09:00 a 17:00 hs",
+    "telefonoFijo": "0230 447-2589",
+    "telefono": "0230 447-2589 / +54 11 2827-1190",
+    "email": "floresdelparquemontoya@gmail.com",
     "puntosFuertes": [
       {
         "titulo": "Oficio Artesanal",

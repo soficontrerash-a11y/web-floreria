@@ -1,6 +1,6 @@
 import catalogoData from "@/data/catalogo.json";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import { Flower2, MapPin, Clock, Heart } from "lucide-react";
+import { Flower2, MapPin, Clock, Heart, Phone, Mail } from "lucide-react";
 import { InstagramIcon, WhatsAppIcon } from "@/components/Icons";
 
 export default function Footer() {
@@ -21,7 +21,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-[#BDCEBF] max-w-sm leading-relaxed">
-              Taller floral tradicional con más de 30 años en Pilar. Confeccionamos ramos de estación con flores frescas seleccionadas cada semana en el mercado y realizamos envíos programados a domicilios y countries.
+              Taller floral tradicional con más de 30 años en Pilar. Confeccionamos ramos de estación con flores frescas seleccionadas cada semana en el mercado y realizamos envíos programados a domicilios, countries y servicio de colocación en el predio.
             </p>
             <div className="flex items-center gap-3 pt-2">
               <a
@@ -73,7 +73,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#sobre-nosotros" className="hover:text-white transition-colors">
-                  Sobre Nosotros & Ubicación (Florería Memorial)
+                  Sobre Nosotros & Ubicación
                 </a>
               </li>
             </ul>
@@ -90,11 +90,19 @@ export default function Footer() {
             </div>
             <div className="flex items-start gap-2.5">
               <Clock className="w-4 h-4 text-[#E2BAA8] shrink-0 mt-0.5" />
-              <span>{catalogoData.trayectoria.horariosAtencion}</span>
+              <span>{catalogoData.negocio.horariosAtencion}</span>
+            </div>
+            <div className="flex items-start gap-2.5">
+              <Phone className="w-4 h-4 text-[#E2BAA8] shrink-0 mt-0.5" />
+              <span>Teléfono Local: {catalogoData.negocio.telefonoFijo}</span>
             </div>
             <div className="flex items-start gap-2.5">
               <WhatsAppIcon className="w-4 h-4 text-[#E2BAA8] shrink-0 mt-0.5" />
-              <span>Consultas por WhatsApp: {catalogoData.negocio.telefonoMostrar}</span>
+              <span>WhatsApp: {catalogoData.negocio.telefonoMostrar}</span>
+            </div>
+            <div className="flex items-start gap-2.5">
+              <Mail className="w-4 h-4 text-[#E2BAA8] shrink-0 mt-0.5" />
+              <span>{catalogoData.negocio.email}</span>
             </div>
           </div>
         </div>

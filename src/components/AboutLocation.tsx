@@ -1,7 +1,7 @@
 import catalogoData from "@/data/catalogo.json";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import { MapPin, Clock, Phone, Navigation, Award, Heart, Sparkles } from "lucide-react";
-import { WhatsAppIcon } from "@/components/Icons";
+import { MapPin, Clock, Phone, Navigation, Award, Heart, Sparkles, Mail, ExternalLink } from "lucide-react";
+import { WhatsAppIcon, InstagramIcon } from "@/components/Icons";
 import Image from "next/image";
 
 export default function AboutLocation() {
@@ -31,12 +31,22 @@ export default function AboutLocation() {
               {catalogoData.trayectoria.historia}
             </p>
 
-            <div className="pt-2 flex flex-wrap items-center gap-4 text-xs font-semibold text-[#3E4D42]">
-              <div className="flex items-center gap-2 bg-[#F4EFE6] px-3.5 py-2 rounded-xl border border-[#E8E0D2]">
+            {/* Visit invitation notice */}
+            <div className="p-4 sm:p-5 bg-[#F4EFE6] border border-[#E4DCCE] rounded-2xl text-xs sm:text-sm text-[#2E3C32] leading-relaxed space-y-1 shadow-xs">
+              <p className="font-semibold text-[#203223]">
+                📍 Atención presencial y envíos coordinados:
+              </p>
+              <p>
+                {catalogoData.trayectoria.invitacion}
+              </p>
+            </div>
+
+            <div className="pt-2 flex flex-wrap items-center gap-3 text-xs font-semibold text-[#3E4D42]">
+              <div className="flex items-center gap-2 bg-white px-3.5 py-2 rounded-xl border border-[#E8E0D2] shadow-2xs">
                 <Sparkles className="w-4 h-4 text-[#C27A65]" />
                 <span>+30 años de oficio ininterrumpido</span>
               </div>
-              <div className="flex items-center gap-2 bg-[#F4EFE6] px-3.5 py-2 rounded-xl border border-[#E8E0D2]">
+              <div className="flex items-center gap-2 bg-white px-3.5 py-2 rounded-xl border border-[#E8E0D2] shadow-2xs">
                 <Heart className="w-4 h-4 text-[#C27A65]" />
                 <span>Atención familiar y personalizada</span>
               </div>
@@ -65,8 +75,8 @@ export default function AboutLocation() {
                 <p className="font-serif italic text-sm sm:text-base text-[#3E4D42] leading-relaxed">
                   &ldquo;{catalogoData.trayectoria.pieDeFotoFachada}&rdquo;
                 </p>
-                <span className="inline-block mt-1 text-[11px] text-[#8A968E] uppercase tracking-wider font-semibold">
-                  Florería Memorial • La Lonja, Pilar
+                <span className="inline-block mt-1.5 text-[11px] text-[#8A968E] uppercase tracking-wider font-semibold">
+                  {catalogoData.negocio.nombre} • Cementerio Memorial
                 </span>
               </figcaption>
             </figure>
@@ -104,28 +114,26 @@ export default function AboutLocation() {
                 <span className="text-xs font-bold uppercase tracking-wider text-[#C27A65]">
                   {catalogoData.trayectoria.localTitulo}
                 </span>
-                <h3 className="font-serif text-2xl font-bold text-[#1D2520] mt-1 mb-4">
+                <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#1D2520] mt-1 mb-4">
                   {catalogoData.trayectoria.localNombre}
                 </h3>
 
-                {/* Location item */}
+                {/* Location items */}
                 <div className="space-y-4 text-sm text-[#3E4D42]">
+                  {/* Address */}
                   <div className="flex items-start gap-3">
                     <div className="p-2 rounded-lg bg-[#FAF7F2] border border-[#ECE5DA] shrink-0 mt-0.5">
                       <MapPin className="w-4 h-4 text-[#26402B]" />
                     </div>
                     <div>
-                      <p className="font-semibold text-[#1D2520]">Dirección Física</p>
+                      <p className="font-semibold text-[#1D2520]">Dirección</p>
                       <p className="text-xs sm:text-sm text-[#5E6D62] mt-0.5">
                         {catalogoData.negocio.ubicacion}
-                      </p>
-                      <p className="text-xs text-[#8A968E] mt-1">
-                        {catalogoData.trayectoria.referencia}
                       </p>
                     </div>
                   </div>
 
-                  {/* Hours item */}
+                  {/* Hours */}
                   <div className="flex items-start gap-3">
                     <div className="p-2 rounded-lg bg-[#FAF7F2] border border-[#ECE5DA] shrink-0 mt-0.5">
                       <Clock className="w-4 h-4 text-[#26402B]" />
@@ -133,15 +141,15 @@ export default function AboutLocation() {
                     <div>
                       <p className="font-semibold text-[#1D2520]">Horarios de Atención</p>
                       <p className="text-xs sm:text-sm text-[#5E6D62] mt-0.5">
-                        {catalogoData.trayectoria.horariosAtencion}
+                        {catalogoData.negocio.horariosAtencion}
                       </p>
                       <p className="text-xs text-[#8A968E] mt-0.5">
-                        Envíos programados de Lunes a Sábado
+                        {catalogoData.negocio.horariosEnvios}
                       </p>
                     </div>
                   </div>
 
-                  {/* Phone / Contact */}
+                  {/* Phones */}
                   <div className="flex items-start gap-3">
                     <div className="p-2 rounded-lg bg-[#FAF7F2] border border-[#ECE5DA] shrink-0 mt-0.5">
                       <Phone className="w-4 h-4 text-[#26402B]" />
@@ -149,24 +157,50 @@ export default function AboutLocation() {
                     <div>
                       <p className="font-semibold text-[#1D2520]">Teléfonos de Contacto</p>
                       <p className="text-xs sm:text-sm text-[#5E6D62] mt-0.5">
-                        WhatsApp: {catalogoData.negocio.telefonoMostrar}
+                        Teléfono Local: <a href={`tel:${catalogoData.negocio.telefonoFijo.replace(/\s+/g, '')}`} className="font-medium hover:text-[#26402B] underline">{catalogoData.negocio.telefonoFijo}</a>
+                      </p>
+                      <p className="text-xs sm:text-sm text-[#5E6D62] mt-0.5">
+                        WhatsApp: <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="font-medium text-[#25D366] hover:underline">{catalogoData.negocio.telefonoMostrar}</a>
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Email & Instagram */}
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 rounded-lg bg-[#FAF7F2] border border-[#ECE5DA] shrink-0 mt-0.5">
+                      <Mail className="w-4 h-4 text-[#26402B]" />
+                    </div>
+                    <div>
+                      <p className="font-semibold text-[#1D2520]">Email & Redes</p>
+                      <p className="text-xs sm:text-sm text-[#5E6D62] mt-0.5">
+                        <a href={`mailto:${catalogoData.negocio.email}`} className="hover:text-[#26402B] underline">
+                          {catalogoData.negocio.email}
+                        </a>
+                      </p>
+                      <p className="text-xs sm:text-sm text-[#5E6D62] mt-0.5 flex items-center gap-1.5">
+                        <InstagramIcon className="w-3.5 h-3.5 text-[#E1306C]" />
+                        <a href={catalogoData.negocio.instagramUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#E1306C] underline">
+                          @{catalogoData.negocio.instagramUser}
+                        </a>
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Actions */}
+              {/* Actions: Map button + WhatsApp button */}
               <div className="pt-4 border-t border-[#F3EEE5] flex flex-col sm:flex-row gap-3">
                 <a
                   href={catalogoData.negocio.googleMapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-[#203223] hover:bg-[#162419] text-white font-semibold text-xs sm:text-sm px-5 py-3 rounded-xl transition-all shadow-xs"
+                  className="inline-flex items-center justify-center gap-2 bg-[#203223] hover:bg-[#162419] text-white font-semibold text-xs sm:text-sm px-5 py-3 rounded-xl transition-all shadow-xs group"
                 >
-                  <Navigation className="w-4 h-4" />
-                  <span>Cómo Llegar con Google Maps</span>
+                  <Navigation className="w-4 h-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                  <span>Ver en Google Maps o cómo llegar</span>
+                  <ExternalLink className="w-3.5 h-3.5 opacity-70" />
                 </a>
+
                 <a
                   href={whatsappUrl}
                   target="_blank"
@@ -180,18 +214,29 @@ export default function AboutLocation() {
             </div>
 
             {/* Interactive Google Map Column (7 cols) */}
-            <div className="lg:col-span-7 h-80 sm:h-96 lg:h-auto min-h-[350px] relative bg-[#EFE9DD] border-t lg:border-t-0 lg:border-l border-[#E8E2D8]">
+            <div className="lg:col-span-7 h-80 sm:h-96 lg:h-auto min-h-[380px] relative bg-[#EFE9DD] border-t lg:border-t-0 lg:border-l border-[#E8E2D8] flex flex-col">
               <iframe
                 src={catalogoData.negocio.googleMapsEmbed}
-                title="Mapa de ubicación Florería Memorial en Pilar"
+                title="Mapa de ubicación Florería Memorial en Cementerio Memorial Pilar"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen={false}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="w-full h-full min-h-[350px] filter grayscale-[15%] contrast-[1.05]"
+                className="w-full h-full min-h-[380px] filter grayscale-[10%] contrast-[1.02]"
               />
+              <div className="absolute bottom-4 right-4 z-10">
+                <a
+                  href={catalogoData.negocio.googleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-white/95 backdrop-blur-md text-[#203223] hover:bg-white text-xs font-bold px-3.5 py-2 rounded-lg shadow-md border border-[#E8E2D8] transition-all"
+                >
+                  <Navigation className="w-3.5 h-3.5 text-[#26402B]" />
+                  <span>Cómo llegar</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
