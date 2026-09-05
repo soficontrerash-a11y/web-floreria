@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import catalogoData from "@/data/catalogo.json";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import { Menu, X, Flower2, Phone } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { WhatsAppIcon } from "@/components/Icons";
 
 export default function Navbar() {
@@ -29,8 +30,16 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Brand Logo & Name */}
           <a href="#" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-[#26402B] text-[#FAF7F2] flex items-center justify-center transition-transform group-hover:scale-105 shadow-sm">
-              <Flower2 className="w-5 h-5 text-[#FAF7F2]" />
+            <div className="relative w-12 h-12 rounded-full overflow-hidden border border-[#D5CBC0] bg-white shadow-sm shrink-0 transition-transform group-hover:scale-105">
+              <Image
+                src={catalogoData.negocio.logo || "/logo.jpg"}
+                alt="Logo Florería Memorial"
+                fill
+                quality={95}
+                sizes="48px"
+                className="object-cover"
+                priority
+              />
             </div>
             <div className="flex flex-col">
               <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-[#1D2520] leading-tight">

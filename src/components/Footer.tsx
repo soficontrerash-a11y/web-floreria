@@ -1,7 +1,8 @@
 import catalogoData from "@/data/catalogo.json";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import { Flower2, MapPin, Clock, Heart, Phone, Mail } from "lucide-react";
+import { MapPin, Clock, Heart, Phone, Mail } from "lucide-react";
 import { InstagramIcon, WhatsAppIcon } from "@/components/Icons";
+import Image from "next/image";
 
 export default function Footer() {
   const whatsappUrl = getWhatsAppUrl();
@@ -13,8 +14,15 @@ export default function Footer() {
           {/* Brand Col (5 cols) */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-[#36563D] flex items-center justify-center text-[#FAF7F2]">
-                <Flower2 className="w-5 h-5 text-[#FAF7F2]" />
+              <div className="relative w-12 h-12 rounded-full overflow-hidden border border-[#44654B] bg-white shadow-sm shrink-0">
+                <Image
+                  src={catalogoData.negocio.logo || "/logo.jpg"}
+                  alt="Logo Florería Memorial"
+                  fill
+                  quality={95}
+                  sizes="48px"
+                  className="object-cover"
+                />
               </div>
               <span className="font-serif text-2xl font-bold tracking-tight">
                 {catalogoData.negocio.nombre}
