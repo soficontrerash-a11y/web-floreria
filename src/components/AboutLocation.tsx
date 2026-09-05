@@ -65,7 +65,7 @@ export default function AboutLocation() {
                 />
                 <div className="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-2xl pointer-events-none" />
                 <div className="absolute top-3 left-3 bg-[#26402B]/90 backdrop-blur-sm text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-xs">
-                  Puesto Parque Memorial
+                  Puesto Cementerio Memorial
                 </div>
               </div>
 
@@ -75,7 +75,7 @@ export default function AboutLocation() {
                   &ldquo;{catalogoData.trayectoria.pieDeFotoFachada}&rdquo;
                 </p>
                 <span className="inline-block mt-1.5 text-[11px] text-[#8A968E] uppercase tracking-wider font-semibold">
-                  {catalogoData.negocio.nombre} • Parque Memorial
+                  {catalogoData.negocio.nombre} • Cementerio Memorial
                 </span>
               </figcaption>
             </figure>
