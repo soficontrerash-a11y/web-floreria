@@ -1,0 +1,223 @@
+{
+  "negocio": {
+    "nombre": "Taller Floral Pilar",
+    "nombreCompleto": "Taller Floral Familiar en Pilar",
+    "lema": "Flores frescas de mercado, oficio artesanal y envíos en Pilar",
+    "telefonoWhatsapp": "+5491100000000",
+    "telefonoWhatsappSinPrefijo": "5491100000000",
+    "telefonoMostrar": "+54 9 11 0000-0000",
+    "instagramUser": "floreria.pilar",
+    "instagramUrl": "https://instagram.com",
+    "email": "contacto@floreriapilar.com.ar",
+    "ubicacionCorta": "Panamericana Ramal Pilar Km 47, Pilar",
+    "ubicacion": "Local en Florería Memorial — Predio Cementerio Parque Memorial, Panamericana Ramal Pilar Km 47 (La Lonja / Pilar).",
+    "googleMapsUrl": "https://maps.google.com/?q=Cementerio+Parque+Memorial+Pilar",
+    "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13155.882963162795!2d-58.8529!3d-34.4601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9cf8019b8bd5%3A0xa19bfcf1f8a846c4!2sCementerio%20Parque%20Memorial!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar",
+    "horariosAtencion": "Lunes a Domingo de 8:00 a 18:00 hs",
+    "horariosEnvios": "Lunes a Sábado con reserva previa"
+  },
+  "hero": {
+    "badge": "Oficio floral tradicional • Pilar",
+    "titulo": "Flores frescas de estación directo a tu hogar y momentos especiales.",
+    "subtitulo": "Más de 30 años de oficio floral y dedicación familiar en Pilar. Ramos artesanales confeccionados con las mejores flores del mercado semanal.",
+    "ctaCatalogo": "Ver Ramos de Temporada",
+    "ctaWhatsapp": "Consultar por WhatsApp",
+    "mensajeWhatsapp": "Hola, me gustaría consultar por los ramos de flores frescas disponibles para esta semana.",
+    "imagenHero": "https://images.unsplash.com/photo-1561181286-d3fee7d55364?q=80&w=1600&auto=format&fit=crop"
+  },
+  "catalogo": {
+    "titulo": "Ramos de Estación",
+    "subtitulo": "Sin formatos chicos. Arreglos protagonistas concebidos con volumen generoso, flores elegidas una por una y follaje verde natural.",
+    "aclaracion": "Cada arreglo se confecciona artesanalmente según la frescura y disponibilidad del mercado semanal.",
+    "productos": [
+      {
+        "id": "ramo-mediano",
+        "nombre": "Ramo Mediano de Estación",
+        "etiqueta": "El Clásico del Hogar",
+        "descripcion": "Ideal para obsequios y detalles frescos del día a día.",
+        "detalles": [
+          "Armoniosa combinación de 3 a 4 variedades florales de estación",
+          "Follajes aromáticos seleccionados (eucalipto cinerea, olivo y verdes finos)",
+          "Envoltorio artesanal en papel kraft satinado con lazo de tela",
+          "Incluye tarjeta para dedicatoria personalizada manuscrita"
+        ],
+        "destacado": false,
+        "imagen": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=900&auto=format&fit=crop"
+      },
+      {
+        "id": "ramo-grande",
+        "nombre": "Ramo Grande de Estación",
+        "etiqueta": "Más Elegido",
+        "descripcion": "Arreglo abundante y protagónico con flores seleccionadas.",
+        "detalles": [
+          "Mayor porte y densidad floral para centros de mesa o recibidores",
+          "Flores premium de mercado en su punto óptimo de apertura",
+          "Combinación de texturas, alturas y aromas de estación",
+          "Presentación elegante con papelería especial y tarjeta dedicatoria"
+        ],
+        "destacado": true,
+        "imagen": "https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?q=80&w=900&auto=format&fit=crop"
+      },
+      {
+        "id": "ramo-especial",
+        "nombre": "Ramo Especial / Premium",
+        "etiqueta": "Gran Porte",
+        "descripcion": "Ramo de gran porte para ocasiones destacadas o celebraciones.",
+        "detalles": [
+          "Selección exclusiva de las varas más imponentes de la semana",
+          "Diseño floral envolvente 360° con máximo impacto visual",
+          "Ideal para aniversarios, nacimientos, agradecimientos y festejos",
+          "Envoltorio de autor, cinta textil y sobre con nutrientes para el agua"
+        ],
+        "destacado": false,
+        "imagen": "https://images.unsplash.com/photo-1563245372-f21724e3856d?q=80&w=900&auto=format&fit=crop"
+      },
+      {
+        "id": "rosas-clasicas",
+        "nombre": "Rosas Clásicas",
+        "etiqueta": "Elegancia Pura",
+        "descripcion": "Ramo destacado de rosas de exportación con follaje verde seleccionado.",
+        "notaExclusiva": "La venta de varas individuales o unidades sueltas se realiza únicamente de forma presencial en el local.",
+        "detalles": [
+          "Rosas de tallo largo con botón floral pleno y aterciopelado",
+          "Acompañadas con eucalipto perfumado y follajes texturados",
+          "Disponibilidad en tonos clásicos: rojas, blancas, rosadas o salmón",
+          "Presentación formal con lazo de raso y tarjeta dedicatoria"
+        ],
+        "destacado": false,
+        "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=900&auto=format&fit=crop"
+      }
+    ]
+  },
+  "floresHabituales": {
+    "titulo": "Nuestras Flores Habituales",
+    "subtitulo": "Variedades que elegimos en cada viaje al mercado para dar vida, color y duración a nuestros arreglos.",
+    "nota": "Catálogo de referencia visual. Flores frescas directas de mercado cada semana.",
+    "items": [
+      {
+        "id": "crisantemos",
+        "nombre": "Crisantemos / San Vicente",
+        "caracteristica": "Flores nobles de larguísima vida en florero, colores vivos y textura campestre que aporta volumen y calidez.",
+        "imagen": "https://images.unsplash.com/photo-1572454591674-2739f30d8c40?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "rosas",
+        "nombre": "Rosas",
+        "caracteristica": "El clásico indiscutido de la floristería tradicional. Botones firmes, fragancia sutil y porte distinguido.",
+        "imagen": "https://images.unsplash.com/photo-1559563458-527698bf5295?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "girasoles",
+        "nombre": "Girasoles",
+        "caracteristica": "Energía solar y presencia contundente. Centros dorados que llenan de optimismo y luminosidad cualquier rincón.",
+        "imagen": "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "margaritas",
+        "nombre": "Margaritas / Tagetes",
+        "caracteristica": "Espíritu silvestre y fresco. Flores delicadas que aportan movimiento, ligereza y frescura de campo.",
+        "imagen": "https://images.unsplash.com/photo-1598880940371-c756e015fea1?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "lilium",
+        "nombre": "Lilium",
+        "caracteristica": "Flores escultóricas de gran porte y perfume embriagador. Abren progresivamente regalando días de belleza.",
+        "imagen": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "follajes",
+        "nombre": "Follajes verdes y eucalipto",
+        "caracteristica": "Eucalipto cinerea con perfume balsámico, olivo y verdes finos que dan soporte orgánico y profundidad al diseño.",
+        "imagen": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=800&auto=format&fit=crop"
+      }
+    ]
+  },
+  "instagramBanner": {
+    "titulo": "Seguinos en Instagram para ver las flores frescas que ingresan los miércoles y los arreglos disponibles para el fin de semana.",
+    "subtitulo": "Compartimos en historias las variedades que llegan del mercado central y las creaciones del día.",
+    "badge": "Stock fresco semanal en tiempo real",
+    "boton": "Ver novedades en Instagram",
+    "tagInstagram": "@floreria.pilar"
+  },
+  "envios": {
+    "titulo": "Llevamos flores frescas a tu puerta.",
+    "descripcion": "Realizamos envíos programados en Pilar, La Lonja, countries y barrios cerrados de la zona. Ideal para cumpleaños, aniversarios o para decorar tu hogar.",
+    "aclaracion": "Consultar costos de envío y disponibilidad de reparto según zona.",
+    "boton": "Consultar envío a mi zona por WhatsApp",
+    "mensajeWhatsapp": "Hola, quisiera consultar por el costo de envío y disponibilidad para entrega en la zona de: ",
+    "zonasDestacadas": [
+      "Pilar Centro",
+      "La Lonja",
+      "Del Viso",
+      "Manzanares",
+      "Villa Rosa",
+      "Ayres del Pilar",
+      "Mayling Club de Campo",
+      "Tortugas Country Club",
+      "Highland Park",
+      "Estancias del Pilar",
+      "La Lomada",
+      "Haras del Pilar",
+      "Countries Ramal Pilar Km 40 a 55"
+    ],
+    "beneficios": [
+      {
+        "titulo": "Transporte Cuidado",
+        "desc": "Trasladamos cada ramo acondicionado con reserva de agua para que llegue intacto y fresco."
+      },
+      {
+        "titulo": "Entregas Programadas",
+        "desc": "Coordinamos el rango horario de entrega para cumpleaños, aniversarios y sorpresas."
+      },
+      {
+        "titulo": "Acceso a Barrios Privados",
+        "desc": "Conocemos los accesos y protocolos de ingreso en countries y urbanizaciones de Pilar."
+      }
+    ]
+  },
+  "eventos": {
+    "titulo": "Flores para tus celebraciones y momentos importantes.",
+    "descripcion": "¿Estás organizando un festejo, reunión, cena o evento? Charlemos con anticipación para seleccionar en el mercado las variedades y tonos ideales para tu ambientación.",
+    "boton": "Presupuestar evento por WhatsApp",
+    "mensajeWhatsapp": "Hola, estoy organizando una reunión/evento en Pilar y me gustaría conversar sobre opciones de ambientación floral y presupuesto.",
+    "propuestas": [
+      {
+        "titulo": "Cenas y Mesas Especiales",
+        "desc": "Centros de mesa bajos y armoniosos diseñados para permitir la conversación y aportar calidez botánica."
+      },
+      {
+        "titulo": "Cumpleaños y Aniversarios",
+        "desc": "Ambientación de espacios, rincones de bienvenida y ramos protagonistas para agasajar a personas queridas."
+      },
+      {
+        "titulo": "Reuniones Familiares y Festejos",
+        "desc": "Selección previa de flores y follajes en mercado adaptada al estilo de tu casa o salón."
+      }
+    ]
+  },
+  "trayectoria": {
+    "titulo": "Más de 30 años acompañándote en cada momento.",
+    "descripcion": "Una tradición familiar brindando los mejores arreglos con calidez, cercanía y respeto.",
+    "historia": "Nuestra historia comenzó en el corazón de Pilar, donde aprendimos el oficio de tratar cada flor con el respeto que merece. Lo que nació como un servicio tradicional en el predio de Parque Memorial creció hasta convertirse en un taller floral integral. Hoy combinamos tres décadas de experiencia de mercado con un diseño fresco y actual, llevando flores vivas directo a los hogares, celebraciones y momentos memorables de nuestra comunidad.",
+    "localTitulo": "Dónde Encontrarnos",
+    "localNombre": "Florería Memorial — Predio Cementerio Parque Memorial",
+    "direccion": "Panamericana Ramal Pilar Km 47 (La Lonja / Pilar)",
+    "referencia": "Fácil acceso desde colectora Panamericana, con estacionamiento propio.",
+    "horariosAtencion": "Atención presencial: Lunes a Domingo de 8:00 a 18:00 hs.",
+    "telefono": "(0230) 447-0000 / +54 9 11 0000-0000",
+    "puntosFuertes": [
+      {
+        "titulo": "Oficio Artesanal",
+        "desc": "Técnica tradicional de armado en espiral y selección manual de cada tallo."
+      },
+      {
+        "titulo": "Flores del Mercado Central",
+        "desc": "Abastecimiento semanal directo que asegura frescura y máxima duración."
+      },
+      {
+        "titulo": "Calidez y Confianza",
+        "desc": "Atención familiar personalizada con el compromiso de siempre."
+      }
+    ]
+  }
+}
