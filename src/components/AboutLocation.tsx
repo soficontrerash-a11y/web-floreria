@@ -28,16 +28,6 @@ export default function AboutLocation() {
               {catalogoData.trayectoria.descripcion}
             </p>
 
-            {/* Visit invitation notice */}
-            <div className="p-4 sm:p-5 bg-[#F4EFE6] border border-[#E4DCCE] rounded-2xl text-xs sm:text-sm text-[#2E3C32] leading-relaxed space-y-1 shadow-xs">
-              <p className="font-semibold text-[#203223]">
-                📍 Atención presencial y envíos coordinados:
-              </p>
-              <p>
-                {catalogoData.trayectoria.invitacion}
-              </p>
-            </div>
-
             <div className="pt-2 flex flex-wrap items-center gap-3 text-xs font-semibold text-[#3E4D42]">
               <div className="flex items-center gap-2 bg-white px-3.5 py-2 rounded-xl border border-[#E8E0D2] shadow-2xs">
                 <Sparkles className="w-4 h-4 text-[#C27A65]" />
