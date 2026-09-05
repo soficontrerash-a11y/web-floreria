@@ -66,7 +66,8 @@ export default function AboutLocation() {
                   className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   priority={false}
                 />
-                <div className="absolute top-3 left-3 bg-[#26402B]/85 backdrop-blur-sm text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-xs">
+                <div className="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-2xl pointer-events-none" />
+                <div className="absolute top-3 left-3 bg-[#26402B]/90 backdrop-blur-sm text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-xs">
                   Puesto Tradicional en Pilar
                 </div>
               </div>
