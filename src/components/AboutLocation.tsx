@@ -1,32 +1,76 @@
 import catalogoData from "@/data/catalogo.json";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import { MapPin, Clock, Phone, Navigation, Award, Heart } from "lucide-react";
+import { MapPin, Clock, Phone, Navigation, Award, Heart, Sparkles } from "lucide-react";
 import { WhatsAppIcon } from "@/components/Icons";
+import Image from "next/image";
 
 export default function AboutLocation() {
   const whatsappUrl = getWhatsAppUrl();
 
   return (
-    <section id="ubicacion" className="py-16 sm:py-24 bg-[#FAF7F2] relative">
+    <section id="sobre-nosotros" className="py-16 sm:py-24 bg-[#FAF7F2] relative scroll-mt-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header: Trajectory & Story */}
-        <div className="max-w-3xl mb-12 sm:mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8EFE9] text-[#26402B] text-xs font-semibold uppercase tracking-wider mb-3">
-            <Award className="w-3.5 h-3.5 text-[#C27A65]" />
-            <span>Oficio & Tradición Familiar</span>
+        {/* Section: Story & Tradition with Local Facade Photo */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center mb-16 sm:mb-20">
+          {/* Left Column: Text narrative of family tradition (7 cols) */}
+          <div className="lg:col-span-7 space-y-5">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8EFE9] text-[#26402B] text-xs font-semibold uppercase tracking-wider">
+              <Award className="w-3.5 h-3.5 text-[#C27A65]" />
+              <span>Sobre Nosotros • Oficio & Tradición Familiar</span>
+            </div>
+
+            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1D2520] tracking-tight leading-[1.15]">
+              {catalogoData.trayectoria.titulo}
+            </h2>
+
+            <p className="text-lg sm:text-xl text-[#26402B] font-medium leading-relaxed">
+              {catalogoData.trayectoria.descripcion}
+            </p>
+
+            <p className="text-sm sm:text-base text-[#5E6D62] leading-relaxed">
+              {catalogoData.trayectoria.historia}
+            </p>
+
+            <div className="pt-2 flex flex-wrap items-center gap-4 text-xs font-semibold text-[#3E4D42]">
+              <div className="flex items-center gap-2 bg-[#F4EFE6] px-3.5 py-2 rounded-xl border border-[#E8E0D2]">
+                <Sparkles className="w-4 h-4 text-[#C27A65]" />
+                <span>+30 años de oficio ininterrumpido</span>
+              </div>
+              <div className="flex items-center gap-2 bg-[#F4EFE6] px-3.5 py-2 rounded-xl border border-[#E8E0D2]">
+                <Heart className="w-4 h-4 text-[#C27A65]" />
+                <span>Atención familiar y personalizada</span>
+              </div>
+            </div>
           </div>
 
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1D2520] tracking-tight mb-4">
-            {catalogoData.trayectoria.titulo}
-          </h2>
+          {/* Right Column: Physical stand photo + warm caption (5 cols) */}
+          <div className="lg:col-span-5">
+            <figure className="bg-white p-3.5 sm:p-4 rounded-3xl border border-[#E8E2D8] shadow-md transition-all hover:shadow-xl group">
+              <div className="relative aspect-[4/5] sm:aspect-[3/4] w-full rounded-2xl overflow-hidden bg-[#EAE3D7]">
+                <Image
+                  src={catalogoData.trayectoria.imagenFachada}
+                  alt="Fachada del puesto tradicional de Florería Memorial en Pilar"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                  className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                  priority={false}
+                />
+                <div className="absolute top-3 left-3 bg-[#26402B]/85 backdrop-blur-sm text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-xs">
+                  Puesto Tradicional en Pilar
+                </div>
+              </div>
 
-          <p className="text-lg sm:text-xl text-[#26402B] font-medium mb-4">
-            {catalogoData.trayectoria.descripcion}
-          </p>
-
-          <p className="text-sm sm:text-base text-[#5E6D62] leading-relaxed">
-            {catalogoData.trayectoria.historia}
-          </p>
+              {/* Warm required caption */}
+              <figcaption className="pt-4 pb-1 px-2 text-center">
+                <p className="font-serif italic text-sm sm:text-base text-[#3E4D42] leading-relaxed">
+                  &ldquo;{catalogoData.trayectoria.pieDeFotoFachada}&rdquo;
+                </p>
+                <span className="inline-block mt-1 text-[11px] text-[#8A968E] uppercase tracking-wider font-semibold">
+                  Florería Memorial • La Lonja, Pilar
+                </span>
+              </figcaption>
+            </figure>
+          </div>
         </div>
 
         {/* 3 Pillars / Values */}
@@ -52,7 +96,7 @@ export default function AboutLocation() {
         </div>
 
         {/* Location & Map Grid */}
-        <div className="bg-white border border-[#E8E2D8] rounded-3xl overflow-hidden shadow-sm">
+        <div id="ubicacion" className="bg-white border border-[#E8E2D8] rounded-3xl overflow-hidden shadow-sm scroll-mt-24">
           <div className="grid grid-cols-1 lg:grid-cols-12">
             {/* Info Column (5 cols) */}
             <div className="lg:col-span-5 p-6 sm:p-10 flex flex-col justify-between space-y-8">

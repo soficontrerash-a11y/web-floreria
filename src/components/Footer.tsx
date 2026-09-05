@@ -72,8 +72,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#ubicacion" className="hover:text-white transition-colors">
-                  Ubicación & Trayectoria (Florería Memorial)
+                <a href="#sobre-nosotros" className="hover:text-white transition-colors">
+                  Sobre Nosotros & Ubicación (Florería Memorial)
                 </a>
               </li>
             </ul>

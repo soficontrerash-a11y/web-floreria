@@ -15,7 +15,7 @@ export default function Navbar() {
     { label: "Flores Habituales", href: "#galeria" },
     { label: "Envíos", href: "#envios" },
     { label: "Eventos", href: "#eventos" },
-    { label: "Ubicación & Trayectoria", href: "#ubicacion" },
+    { label: "Sobre Nosotros", href: "#sobre-nosotros" },
   ];
 
   return (
