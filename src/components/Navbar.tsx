@@ -12,9 +12,9 @@ export default function Navbar() {
   const whatsappUrl = getWhatsAppUrl();
 
   const navLinks = [
-    { label: "Ramos de Estación", href: "#catalogo" },
-    { label: "Flores Habituales", href: "#galeria" },
+    { label: "Nuestras Flores", href: "#galeria" },
     { label: "Servicios", href: "#servicios" },
+    { label: "Envíos", href: "#envios" },
     { label: "Nuestra Historia", href: "#historia" },
     { label: "Ubicación", href: "#ubicacion" },
   ];
@@ -23,7 +23,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 bg-[#FAF7F2]/95 backdrop-blur-md border-b border-[#E8E2D8] transition-all">
       {/* Top micro banner */}
       <div className="bg-[#26402B] text-[#E8EFE9] text-xs py-1.5 px-4 text-center font-medium tracking-wide">
-        <span>🌿 Flores frescas de mercado cada semana • Atención familiar en Pilar</span>
+        <span>🌿 Flores frescas cada semana • Atención familiar en Pilar</span>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

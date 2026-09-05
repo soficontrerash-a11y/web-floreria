@@ -29,7 +29,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-[#BDCEBF] max-w-sm leading-relaxed">
-              Más de 30 años acompañándote con flores frescas, calidez y atención personalizada en Pilar. Confeccionamos ramos de estación en el día con flores de mercado y realizamos envíos a domicilio en la zona.
+              Más de 30 años acompañándote con flores frescas, calidez y atención personalizada en Pilar. Confeccionamos ramos de estación en el día con flores frescas y realizamos envíos a domicilio en la zona.
             </p>
             <div className="flex items-center gap-3 pt-2">
               <a
@@ -60,18 +60,18 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs sm:text-sm text-[#BDCEBF]">
               <li>
-                <a href="#catalogo" className="hover:text-white transition-colors">
-                  Ramos de Estación
-                </a>
-              </li>
-              <li>
                 <a href="#galeria" className="hover:text-white transition-colors">
-                  Flores Habituales
+                  Nuestras Flores
                 </a>
               </li>
               <li>
                 <a href="#servicios" className="hover:text-white transition-colors">
                   Nuestros Servicios
+                </a>
+              </li>
+              <li>
+                <a href="#envios" className="hover:text-white transition-colors">
+                  Envíos a Domicilio
                 </a>
               </li>
               <li>

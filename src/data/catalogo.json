@@ -23,177 +23,112 @@
     "badge": "Atención familiar y tradición floral en Pilar",
     "titulo": "Florería Memorial",
     "subtitulo": "Más de 30 años acompañándote con flores frescas, calidez y atención personalizada en Pilar.",
-    "aclaracion": "Ramos de estación confeccionados en el día con flores frescas de mercado. Atendemos en nuestro puesto y realizamos envíos a domicilio en la zona.",
-    "ctaCatalogo": "Ver Ramos de Estación",
+    "aclaracion": "Ramos de estación confeccionados en el día con flores frescas. Atendemos en nuestro puesto y realizamos envíos a domicilio en la zona.",
+    "ctaFlores": "Ver Nuestras Flores",
     "ctaWhatsapp": "Consultar por WhatsApp",
     "mensajeWhatsapp": "Hola, me gustaría consultar por los ramos y flores frescas disponibles en Florería Memorial.",
     "imagenHero": "/rosas.jpg"
   },
-  "catalogo": {
-    "titulo": "Ramos de Estación",
-    "subtitulo": "Arreglos florales concebidos con volumen generoso, flores frescas de mercado y follaje verde natural.",
-    "aclaracion": "Ramos de estación confeccionados en el día con flores frescas de mercado.",
-    "productos": [
-      {
-        "id": "ramo-mediano",
-        "nombre": "Ramo Mediano de Estación",
-        "etiqueta": "Opción Clásica",
-        "descripcion": "Ideal para obsequios, detalles o para llevar flores frescas a tu casa.",
-        "detalles": [
-          "Armoniosa combinación de 3 a 4 variedades florales de estación",
-          "Follajes verdes naturales seleccionados",
-          "Envoltorio artesanal en papel kraft con lazo de tela",
-          "Incluye tarjeta para dedicatoria personalizada manuscrita"
-        ],
-        "destacado": false,
-        "imagen": "/margaritas.jpg"
-      },
-      {
-        "id": "ramo-grande",
-        "nombre": "Ramo Grande de Estación",
-        "etiqueta": "Más Elegido",
-        "descripcion": "Arreglo abundante y cuidado con flores seleccionadas de la semana.",
-        "detalles": [
-          "Mayor porte y densidad floral con apertura armónica",
-          "Flores frescas de mercado en su punto óptimo",
-          "Composición de texturas, alturas y follajes de temporada",
-          "Presentación artesanal con papel kraft rústico y cinta textil"
-        ],
-        "destacado": true,
-        "imagen": "/girasoles.jpg"
-      },
-      {
-        "id": "ramo-especial",
-        "nombre": "Ramo Especial",
-        "etiqueta": "Gran Porte",
-        "descripcion": "Arreglo de gran porte con flores seleccionadas para momentos significativos u homenajes.",
-        "detalles": [
-          "Selección cuidada de las varas y flores de mayor porte de la semana",
-          "Diseño envolvente con presencia destacada y armónica",
-          "Apropiado para homenajes, aniversarios o presentes especiales",
-          "Presentación formal con envoltorio artesanal y cinta textil"
-        ],
-        "destacado": false,
-        "imagen": "/lilium.jpg"
-      },
-      {
-        "id": "rosas-clasicas",
-        "nombre": "Rosas Clásicas",
-        "etiqueta": "Tradicional",
-        "descripcion": "Ramo tradicional de rosas seleccionadas con follaje verde natural.",
-        "notaExclusiva": "La venta de varas individuales o flores sueltas se realiza directamente en nuestro local.",
-        "detalles": [
-          "Rosas de tallo largo con botón floral pleno",
-          "Acompañadas con follajes verdes seleccionados",
-          "Disponibilidad en tonos clásicos: rojas, blancas, rosadas o salmón",
-          "Presentación sobria y cuidada con tarjeta dedicatoria"
-        ],
-        "destacado": false,
-        "imagen": "/rosas.jpg"
-      }
-    ]
-  },
   "floresHabituales": {
     "titulo": "Nuestras Flores Habituales",
-    "subtitulo": "Variedades frescas directas de mercado que seleccionamos para dar vida, color y duración a nuestros arreglos.",
-    "nota": "Catálogo de referencia visual. Flores frescas directas de mercado cada semana.",
+    "subtitulo": "Trabajamos con flores de estación para armar nuestros ramos. Consultanos por el stock disponible de la semana.",
+    "ctaWhatsapp": "Consultar disponibilidad por WhatsApp",
     "items": [
       {
         "id": "crisantemos",
         "nombre": "Crisantemos",
-        "caracteristica": "Flores nobles de gran duración en florero, pétalos densos en blanco, amarillo y tonos pasteles.",
-        "imagen": "/crisantemos.jpg",
-        "fotoReal": true
+        "imagen": "/crisantemos.jpg"
       },
       {
         "id": "san-vicente",
         "nombre": "San Vicente",
-        "caracteristica": "Racimos florales tupidos y generosos en tonos violetas, púrpuras y lilas que llenan de volumen cada arreglo.",
-        "imagen": "/san-vicente.jpg",
-        "fotoReal": true
+        "imagen": "/san-vicente.jpg"
       },
       {
         "id": "girasoles",
         "nombre": "Girasoles",
-        "caracteristica": "Energía cálida, tallos firmes y presencia viva que ilumina cualquier rincón.",
-        "imagen": "/girasoles.jpg",
-        "fotoReal": true
+        "imagen": "/girasoles.jpg"
       },
       {
         "id": "margaritas",
         "nombre": "Margaritas de Colores",
-        "caracteristica": "Espíritu silvestre y fresco en paletas suaves, amarillas, rosadas y blancas.",
-        "imagen": "/margaritas.jpg",
-        "fotoReal": true
+        "imagen": "/margaritas.jpg"
       },
       {
         "id": "lilium",
         "nombre": "Lilium Blancos",
-        "caracteristica": "Flores escultóricas de gran porte, botones firmes y perfume sutil que abren progresivamente.",
-        "imagen": "/lilium.jpg",
-        "fotoReal": true
+        "imagen": "/lilium.jpg"
       },
       {
         "id": "lisianthus",
         "nombre": "Lisianthus",
-        "caracteristica": "Elegancia serena con pétalos ondulados en blanco y ribetes violetas. Muy elegida para detalles finos.",
-        "imagen": "/lisianthus.jpg",
-        "fotoReal": true
+        "imagen": "/lisianthus.jpg"
       }
     ]
   },
   "servicios": {
-    "titulo": "Servicios Claros y Simples",
+    "titulo": "Nuestros Servicios",
     "subtitulo": "Atención personalizada, oficio tradicional y compromiso en cada pedido.",
-    "items": [
+    "propuestas": [
       {
-        "id": "local",
-        "titulo": "Atención en el local",
-        "descripcion": "Ramos armados en el momento y flores seleccionadas.",
-        "detalle": "Te esperamos en nuestro puesto en el Parque Memorial de martes a domingos de 09 a 17hs para elegir flores del día y confeccionar ramos en el acto.",
-        "etiqueta": "Martes a Domingos 09 a 17hs"
+        "id": "colocacion",
+        "titulo": "Colocación de ramos en Parque Memorial",
+        "detalle": "Solicitá nuestro servicio de armado y colocación de flores y ramos directamente en las parcelas del Cementerio Parque Memorial.",
+        "boton": "Solicitar servicio",
+        "mensajeWhatsapp": "Hola, quisiera solicitar el servicio de armado y colocación de ramos en el Cementerio Parque Memorial."
       },
       {
-        "id": "envios",
-        "titulo": "Envíos a domicilio",
-        "descripcion": "Repartos coordinados en Pilar, La Lonja y alrededores.",
-        "detalle": "Coordinamos entregas con transporte cuidadoso y reserva de agua para que las flores lleguen intactas a domicilios particulares, countries y barrios cerrados.",
-        "etiqueta": "Pilar, La Lonja y alrededores"
+        "id": "eventos",
+        "titulo": "Eventos y reuniones",
+        "detalle": "Si tenés un evento o reunión y necesitás flores, contactanos con al menos dos semanas de anticipación para coordinar y prepararte los mejores ramos y arreglos.",
+        "boton": "Consultar por eventos",
+        "mensajeWhatsapp": "Hola, estoy organizando un evento o reunión y quisiera consultar por arreglos florales con dos semanas de anticipación."
       },
       {
-        "id": "consultas",
-        "titulo": "Consultas personalizadas",
-        "descripcion": "Pedidos por WhatsApp para consultar flores del día.",
-        "detalle": "Escribinos directamente para consultar las flores que ingresaron en la semana, encargar ramos con anticipación o coordinar servicios de colocación.",
-        "etiqueta": "Respuesta por WhatsApp"
+        "id": "atencion-envios",
+        "titulo": "Envíos a Domicilio y Atención en el Local",
+        "detalle": "Atendemos de forma presencial en nuestro puesto tradicional en el Parque Memorial y coordinamos entregas a domicilio en Pilar, La Lonja y alrededores.",
+        "boton": "Consultar por WhatsApp",
+        "mensajeWhatsapp": "Hola, quisiera consultar por atención en el puesto y envíos a domicilio en la zona de Pilar."
       }
-    ],
-    "zonas": [
-      "Pilar Centro",
-      "La Lonja",
-      "Del Viso",
-      "Manzanares",
-      "Villa Rosa",
-      "Countries y Barrios Privados de Pilar"
+    ]
+  },
+  "envios": {
+    "titulo": "Llevamos flores frescas a tu casa",
+    "subtitulo": "Consultá costos de envío y disponibilidad de reparto según tu zona para coordinar la entrega.",
+    "boton": "Coordinar envío por WhatsApp",
+    "mensajeWhatsapp": "Hola, quisiera consultar costos de envío y disponibilidad de reparto para mi zona: ",
+    "beneficios": [
+      {
+        "titulo": "Transporte Cuidado",
+        "desc": "Trasladamos cada ramo acondicionado con reserva de agua para que llegue impecable."
+      },
+      {
+        "titulo": "Entrega Coordinada",
+        "desc": "Pautamos día y franja horaria para recibir tus flores cómodamente."
+      },
+      {
+        "titulo": "Pilar y Alrededores",
+        "desc": "Llegamos a domicilios particulares, countries y barrios cerrados de la zona."
+      }
     ]
   },
   "instagramBanner": {
     "titulo": "Seguinos en Instagram para ver las flores frescas que ingresan los miércoles y los arreglos disponibles para el fin de semana.",
     "subtitulo": "Compartimos nuestras flores del día y creaciones habituales en",
-    "badge": "Ingreso semanal de mercado",
+    "badge": "Ingreso semanal",
     "boton": "Ver novedades en Instagram",
     "tagInstagram": "@floresparquememo"
   },
   "trayectoria": {
     "titulo": "Nuestra Historia",
     "descripcion": "Somos una florería familiar con más de tres décadas de trayectoria en el predio del Parque Memorial. Conocemos el oficio y seleccionamos cada semana flores frescas para ofrecer ramos cuidados, ya sea para un homenaje, un obsequio o para llevar flores a tu casa.",
-    "historia": "Conocemos el oficio y seleccionamos cada semana flores frescas para ofrecer ramos cuidados, ya sea para un homenaje, un obsequio o para llevar flores a tu casa. Brindamos atención cercana en nuestro puesto tradicional y coordinamos envíos con compromiso y calidez.",
     "imagenFachada": "/fachada-local.jpg",
     "pieDeFotoFachada": "Nuestro puesto tradicional en el Parque Memorial, Pilar.",
     "localTitulo": "Dónde Encontrarnos",
     "localNombre": "Florería Memorial — Parque Memorial",
     "direccion": "Cementerio Memorial. Ruta 8, km 46, ramal Pilar, Pilar, Argentina.",
-    "referencia": "Fácil acceso en el predio de Parque Memorial, con estacionamiento propio.",
+    "referencia": "Fácil acceso en el predio de Cementerio Memorial, con estacionamiento propio.",
     "invitacion": "Podés visitarnos directamente en el local de martes a domingos de 09 a 17hs o contactarnos para coordinar un pedido con entrega a domicilio y/o servicio de colocación de ramos.",
     "horariosAtencion": "Martes a Domingos de 09:00 a 17:00 hs",
     "telefonoFijo": "0230 447-2589",
@@ -205,8 +140,8 @@
         "desc": "Más de 30 años seleccionando flores de calidad y brindando atención familiar y respetuosa."
       },
       {
-        "titulo": "Flores Frescas de Mercado",
-        "desc": "Selección semanal directa que asegura flores nobles, frescas y de buena duración."
+        "titulo": "Flores Frescas de Estación",
+        "desc": "Selección directa y cuidada que asegura flores nobles, frescas y de buena duración."
       },
       {
         "titulo": "Atención Cercana",

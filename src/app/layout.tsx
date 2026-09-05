@@ -18,15 +18,14 @@ const sans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Florería Memorial — Atención familiar y tradición floral en Pilar",
   description:
-    "Más de 30 años acompañándote con flores frescas, calidez y atención personalizada en Pilar. Ramos de estación confeccionados en el día con flores frescas de mercado. Atendemos en nuestro puesto y realizamos envíos a domicilio en la zona.",
+    "Más de 30 años acompañándote con flores frescas, calidez y atención personalizada en Pilar. Ramos de estación confeccionados en el día con flores frescas. Atendemos en nuestro puesto y realizamos envíos a domicilio en la zona.",
   keywords: [
     "Florería Memorial",
     "Florería Pilar",
     "Flores Parque Memorial",
     "Ramos de flores Pilar",
-    "Flores frescas mercado",
+    "Flores de estación",
     "Envíos flores Pilar",
-    "Ramos de estación",
     "Arreglos florales Pilar"
   ],
   authors: [{ name: catalogoData.negocio.nombre }],

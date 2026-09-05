@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src={catalogoData.hero.imagenHero}
-          alt="Florería Memorial en Pilar — Flores frescas de mercado"
+          alt="Florería Memorial en Pilar — Flores frescas"
           fill
           priority
           quality={95}
@@ -49,10 +49,10 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-3.5 sm:gap-4 sm:items-center">
             <a
-              href="#catalogo"
+              href="#galeria"
               className="inline-flex items-center justify-center gap-2 bg-[#FAF7F2] hover:bg-white text-[#203223] font-bold text-base px-7 py-4 rounded-xl transition-all shadow-lg hover:shadow-xl hover:translate-y-[-1px] active:translate-y-0"
             >
-              <span>{catalogoData.hero.ctaCatalogo}</span>
+              <span>{catalogoData.hero.ctaFlores}</span>
               <ArrowRight className="w-4 h-4" />
             </a>
 
@@ -75,7 +75,7 @@ export default function Hero() {
             </div>
             <div className="flex items-center gap-2.5">
               <Sparkles className="w-4 h-4 text-[#E2BAA8] shrink-0" />
-              <span>Flores de mercado semanal</span>
+              <span>Flores frescas de estación</span>
             </div>
             <div className="flex items-center gap-2.5">
               <Truck className="w-4 h-4 text-[#E2BAA8] shrink-0" />
