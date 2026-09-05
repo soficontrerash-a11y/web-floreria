@@ -1,6 +1,6 @@
 import catalogoData from "@/data/catalogo.json";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import { MapPin, Clock, Phone, Navigation, Award, Heart, Sparkles, Mail, ExternalLink } from "lucide-react";
+import { MapPin, Clock, Phone, Award, Heart, Sparkles, Mail, ExternalLink, Navigation } from "lucide-react";
 import { WhatsAppIcon, InstagramIcon } from "@/components/Icons";
 import Image from "next/image";
 
@@ -80,28 +80,6 @@ export default function AboutLocation() {
               </figcaption>
             </figure>
           </div>
-        </div>
-
-        {/* 3 Pillars / Values */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-          {catalogoData.trayectoria.puntosFuertes.map((punto, idx) => (
-            <div
-              key={idx}
-              className="bg-white p-6 rounded-2xl border border-[#E8E2D8] shadow-xs"
-            >
-              <div className="w-10 h-10 rounded-xl bg-[#E8EFE9] text-[#26402B] flex items-center justify-center mb-4">
-                {idx === 0 && <Award className="w-5 h-5" />}
-                {idx === 1 && <Navigation className="w-5 h-5" />}
-                {idx === 2 && <Heart className="w-5 h-5" />}
-              </div>
-              <h3 className="font-serif text-lg font-bold text-[#1D2520] mb-2">
-                {punto.titulo}
-              </h3>
-              <p className="text-xs sm:text-sm text-[#5E6D62] leading-relaxed">
-                {punto.desc}
-              </p>
-            </div>
-          ))}
         </div>
 
         {/* Location & Map Grid */}

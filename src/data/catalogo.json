@@ -133,20 +133,6 @@
     "horariosAtencion": "Martes a Domingos de 09:00 a 17:00 hs",
     "telefonoFijo": "0230 447-2589",
     "telefono": "0230 447-2589 / +54 11 2827-1190",
-    "email": "floresdelparquemontoya@gmail.com",
-    "puntosFuertes": [
-      {
-        "titulo": "Oficio y Tradición",
-        "desc": "Más de 30 años seleccionando flores de calidad y brindando atención familiar y respetuosa."
-      },
-      {
-        "titulo": "Flores Frescas de Estación",
-        "desc": "Selección directa y cuidada que asegura flores nobles, frescas y de buena duración."
-      },
-      {
-        "titulo": "Atención Cercana",
-        "desc": "Acompañamiento personalizado para elegir el arreglo adecuado para cada momento."
-      }
-    ]
+    "email": "floresdelparquemontoya@gmail.com"
   }
 }
