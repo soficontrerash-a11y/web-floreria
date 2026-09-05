@@ -50,6 +50,7 @@ export default function Catalog() {
                     src={producto.imagen}
                     alt={producto.nombre}
                     fill
+                    quality={95}
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover object-center transition-transform duration-700 hover:scale-105"
                   />

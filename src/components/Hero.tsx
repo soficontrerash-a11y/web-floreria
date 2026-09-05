@@ -16,6 +16,7 @@ export default function Hero() {
           alt="Taller floral artesanal en Pilar con flores frescas"
           fill
           priority
+          quality={95}
           sizes="100vw"
           className="object-cover object-center opacity-30 mix-blend-luminosity scale-105 transition-transform duration-1000"
         />

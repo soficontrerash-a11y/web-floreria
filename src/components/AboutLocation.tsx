@@ -61,6 +61,7 @@ export default function AboutLocation() {
                   src={catalogoData.trayectoria.imagenFachada}
                   alt="Fachada del puesto tradicional de Florería Memorial en Pilar"
                   fill
+                  quality={95}
                   sizes="(max-width: 768px) 100vw, 40vw"
                   className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   priority={false}

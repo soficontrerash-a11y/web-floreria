@@ -24,7 +24,7 @@
     "ctaCatalogo": "Ver Ramos de Temporada",
     "ctaWhatsapp": "Consultar por WhatsApp",
     "mensajeWhatsapp": "Hola, me gustaría consultar por los ramos de flores frescas disponibles para esta semana.",
-    "imagenHero": "https://images.unsplash.com/photo-1561181286-d3fee7d55364?q=80&w=1600&auto=format&fit=crop"
+    "imagenHero": "https://images.unsplash.com/photo-1561181286-d3fee7d55364?q=90&w=2000&auto=format&fit=crop"
   },
   "catalogo": {
     "titulo": "Ramos de Estación",
@@ -43,7 +43,7 @@
           "Incluye tarjeta para dedicatoria personalizada manuscrita"
         ],
         "destacado": false,
-        "imagen": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=900&auto=format&fit=crop"
+        "imagen": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=90&w=1200&auto=format&fit=crop"
       },
       {
         "id": "ramo-grande",
@@ -57,7 +57,7 @@
           "Presentación elegante con papelería especial y tarjeta dedicatoria"
         ],
         "destacado": true,
-        "imagen": "https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?q=80&w=900&auto=format&fit=crop"
+        "imagen": "https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?q=90&w=1200&auto=format&fit=crop"
       },
       {
         "id": "ramo-especial",
@@ -71,7 +71,7 @@
           "Envoltorio de autor, cinta textil y sobre con nutrientes para el agua"
         ],
         "destacado": false,
-        "imagen": "https://images.unsplash.com/photo-1563245372-f21724e3856d?q=80&w=900&auto=format&fit=crop"
+        "imagen": "https://images.unsplash.com/photo-1563245372-f21724e3856d?q=90&w=1200&auto=format&fit=crop"
       },
       {
         "id": "rosas-clasicas",
@@ -86,7 +86,7 @@
           "Presentación formal con lazo de raso y tarjeta dedicatoria"
         ],
         "destacado": false,
-        "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=900&auto=format&fit=crop"
+        "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=90&w=1200&auto=format&fit=crop"
       }
     ]
   },
@@ -99,37 +99,37 @@
         "id": "crisantemos",
         "nombre": "Crisantemos / San Vicente",
         "caracteristica": "Flores nobles de larguísima vida en florero, colores vivos y textura campestre que aporta volumen y calidez.",
-        "imagen": "https://images.unsplash.com/photo-1572454591674-2739f30d8c40?q=80&w=800&auto=format&fit=crop"
+        "imagen": "/crisantemos.jpg"
       },
       {
         "id": "rosas",
         "nombre": "Rosas",
         "caracteristica": "El clásico indiscutido de la floristería tradicional. Botones firmes, fragancia sutil y porte distinguido.",
-        "imagen": "https://images.unsplash.com/photo-1559563458-527698bf5295?q=80&w=800&auto=format&fit=crop"
+        "imagen": "https://images.unsplash.com/photo-1559563458-527698bf5295?q=90&w=1000&auto=format&fit=crop"
       },
       {
         "id": "girasoles",
         "nombre": "Girasoles",
         "caracteristica": "Energía solar y presencia contundente. Centros dorados que llenan de optimismo y luminosidad cualquier rincón.",
-        "imagen": "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?q=80&w=800&auto=format&fit=crop"
+        "imagen": "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?q=90&w=1000&auto=format&fit=crop"
       },
       {
         "id": "margaritas",
         "nombre": "Margaritas / Tagetes",
         "caracteristica": "Espíritu silvestre y fresco. Flores delicadas que aportan movimiento, ligereza y frescura de campo.",
-        "imagen": "https://images.unsplash.com/photo-1598880940371-c756e015fea1?q=80&w=800&auto=format&fit=crop"
+        "imagen": "https://images.unsplash.com/photo-1598880940371-c756e015fea1?q=90&w=1000&auto=format&fit=crop"
       },
       {
         "id": "lilium",
         "nombre": "Lilium",
         "caracteristica": "Flores escultóricas de gran porte y perfume embriagador. Abren progresivamente regalando días de belleza.",
-        "imagen": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?q=80&w=800&auto=format&fit=crop"
+        "imagen": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?q=90&w=1000&auto=format&fit=crop"
       },
       {
         "id": "follajes",
         "nombre": "Follajes verdes y eucalipto",
         "caracteristica": "Eucalipto cinerea con perfume balsámico, olivo y verdes finos que dan soporte orgánico y profundidad al diseño.",
-        "imagen": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=800&auto=format&fit=crop"
+        "imagen": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=90&w=1000&auto=format&fit=crop"
       }
     ]
   },

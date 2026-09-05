@@ -1,5 +1,5 @@
 import catalogoData from "@/data/catalogo.json";
-import { Info, Flower2 } from "lucide-react";
+import { Info, Flower2, Sparkles } from "lucide-react";
 import Image from "next/image";
 
 export default function FlowerGallery() {
@@ -34,15 +34,26 @@ export default function FlowerGallery() {
               className="group bg-white rounded-2xl overflow-hidden border border-[#E8E2D8] hover:border-[#26402B]/40 transition-all duration-300 hover:shadow-lg flex flex-col"
             >
               {/* Image with zoom effect */}
-              <div className="relative h-60 w-full overflow-hidden bg-[#EAE3D7]">
+              <div className="relative h-64 w-full overflow-hidden bg-[#EAE3D7]">
                 <Image
                   src={flor.imagen}
                   alt={flor.nombre}
                   fill
+                  quality={95}
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover object-center transition-transform duration-700 group-hover:scale-110"
+                  className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-transparent opacity-75 group-hover:opacity-60 transition-opacity" />
+
+                {flor.id === "crisantemos" && (
+                  <div className="absolute top-3 left-3 z-10">
+                    <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#26402B]/90 backdrop-blur-sm text-white text-[11px] font-bold tracking-wide shadow-xs">
+                      <Sparkles className="w-3 h-3 text-[#E2BAA8]" />
+                      <span>Ingreso Fresco del Puesto</span>
+                    </span>
+                  </div>
+                )}
+
                 <div className="absolute bottom-3 left-4 right-4">
                   <h3 className="font-serif text-lg sm:text-xl font-bold text-white drop-shadow-sm">
                     {flor.nombre}
