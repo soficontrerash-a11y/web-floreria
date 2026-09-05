@@ -53,7 +53,7 @@ export default function Footer() {
             <ul className="space-y-2 text-xs sm:text-sm text-[#BDCEBF]">
               <li>
                 <a href="#catalogo" className="hover:text-white transition-colors">
-                  Ramos de Estación (Sin ramos chicos)
+                  Ramos de Estación
                 </a>
               </li>
               <li>
