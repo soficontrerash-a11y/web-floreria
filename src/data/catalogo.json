@@ -136,13 +136,6 @@
         "caracteristica": "Elegancia sutil con pétalos ondulados en blanco y ribetes violetas. La flor favorita para detalles finos.",
         "imagen": "/lisianthus.jpg",
         "fotoReal": true
-      },
-      {
-        "id": "rosas",
-        "nombre": "Rosas Seleccionadas",
-        "caracteristica": "El clásico indiscutido de la floristería tradicional. Botones firmes, fragancia suave y porte distinguido.",
-        "imagen": "/rosas.jpg",
-        "fotoReal": true
       }
     ]
   },

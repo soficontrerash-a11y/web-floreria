@@ -26,8 +26,8 @@ export default function FlowerGallery() {
           </div>
         </div>
 
-        {/* Flower Grid (8 varieties in balanced 4x2 / 2x4 grid) */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Flower Grid (6 varieties in balanced 3x2 / 2x3 grid) */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {catalogoData.floresHabituales.items.map((flor) => (
             <div
               key={flor.id}
@@ -40,7 +40,7 @@ export default function FlowerGallery() {
                   alt={flor.nombre}
                   fill
                   quality={95}
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-75 group-hover:opacity-60 transition-opacity" />
