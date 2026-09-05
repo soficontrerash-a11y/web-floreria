@@ -16,24 +16,24 @@ const sans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Florería Memorial | Flores Frescas de Mercado & Envíos a Domicilio en Pilar",
+  title: "Florería Memorial — Atención familiar y tradición floral en Pilar",
   description:
-    "Florería Memorial en Cementerio Memorial (Ruta 8, km 46, Pilar). Más de 30 años de oficio floral familiar. Ramos de estación con flores frescas de mercado, envíos a domicilio y colocación de ramos.",
+    "Más de 30 años acompañándote con flores frescas, calidez y atención personalizada en Pilar. Ramos de estación confeccionados en el día con flores frescas de mercado. Atendemos en nuestro puesto y realizamos envíos a domicilio en la zona.",
   keywords: [
+    "Florería Memorial",
     "Florería Pilar",
+    "Flores Parque Memorial",
     "Ramos de flores Pilar",
     "Flores frescas mercado",
     "Envíos flores Pilar",
-    "Florería Memorial",
-    "Flores countries Pilar",
     "Ramos de estación",
     "Arreglos florales Pilar"
   ],
   authors: [{ name: catalogoData.negocio.nombre }],
   openGraph: {
-    title: "Taller Floral Pilar — Flores Frescas & Oficio Familiar",
+    title: "Florería Memorial — Atención familiar y tradición floral en Pilar",
     description:
-      "Más de 30 años de oficio floral en Pilar. Ramos de estación con flores frescas del mercado semanal y envíos a domicilio.",
+      "Más de 30 años acompañándote con flores frescas, calidez y atención personalizada en Pilar.",
     url: "https://floreriapilar.com.ar",
     siteName: catalogoData.negocio.nombre,
     locale: "es_AR",

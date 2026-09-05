@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src={catalogoData.hero.imagenHero}
-          alt="Taller floral artesanal en Pilar con flores frescas"
+          alt="Florería Memorial en Pilar — Flores frescas de mercado"
           fill
           priority
           quality={95}
@@ -32,13 +32,18 @@ export default function Hero() {
           </div>
 
           {/* Main Title */}
-          <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-[#FAF7F2] leading-[1.15] mb-6">
+          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-[#FAF7F2] leading-[1.12] mb-5">
             {catalogoData.hero.titulo}
           </h1>
 
           {/* Subtitle */}
-          <p className="text-base sm:text-lg lg:text-xl text-[#D3DDD5] font-normal leading-relaxed mb-8 max-w-2xl">
+          <p className="text-lg sm:text-xl lg:text-2xl text-[#E8EFE9] font-medium leading-relaxed mb-4 max-w-2xl font-serif">
             {catalogoData.hero.subtitulo}
+          </p>
+
+          {/* Aclaración sencilla */}
+          <p className="text-sm sm:text-base text-[#D0DDD2] leading-relaxed mb-8 max-w-2xl border-l-2 border-[#E2BAA8]/70 pl-3.5 py-0.5">
+            {catalogoData.hero.aclaracion}
           </p>
 
           {/* CTA Buttons */}
@@ -74,7 +79,7 @@ export default function Hero() {
             </div>
             <div className="flex items-center gap-2.5">
               <Truck className="w-4 h-4 text-[#E2BAA8] shrink-0" />
-              <span>Envíos a domicilio y countries</span>
+              <span>Atención en el local y envíos</span>
             </div>
           </div>
         </div>

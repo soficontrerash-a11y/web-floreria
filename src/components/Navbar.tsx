@@ -14,16 +14,16 @@ export default function Navbar() {
   const navLinks = [
     { label: "Ramos de Estación", href: "#catalogo" },
     { label: "Flores Habituales", href: "#galeria" },
-    { label: "Envíos", href: "#envios" },
-    { label: "Eventos", href: "#eventos" },
-    { label: "Sobre Nosotros", href: "#sobre-nosotros" },
+    { label: "Servicios", href: "#servicios" },
+    { label: "Nuestra Historia", href: "#historia" },
+    { label: "Ubicación", href: "#ubicacion" },
   ];
 
   return (
     <header className="sticky top-0 z-40 bg-[#FAF7F2]/95 backdrop-blur-md border-b border-[#E8E2D8] transition-all">
       {/* Top micro banner */}
       <div className="bg-[#26402B] text-[#E8EFE9] text-xs py-1.5 px-4 text-center font-medium tracking-wide">
-        <span>🌿 Flores frescas de mercado cada semana • Envíos a todo Pilar y countries</span>
+        <span>🌿 Flores frescas de mercado cada semana • Atención familiar en Pilar</span>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -46,7 +46,7 @@ export default function Navbar() {
                 {catalogoData.negocio.nombre}
               </span>
               <span className="text-[11px] uppercase tracking-wider text-[#5E6D62] font-semibold">
-                Oficio Floral Familiar • Pilar
+                Atención Familiar • Pilar
               </span>
             </div>
           </a>

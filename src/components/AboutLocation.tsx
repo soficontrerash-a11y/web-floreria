@@ -9,26 +9,23 @@ export default function AboutLocation() {
 
   return (
     <section id="sobre-nosotros" className="py-16 sm:py-24 bg-[#FAF7F2] relative scroll-mt-10">
+      <div id="historia" className="scroll-mt-24" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section: Story & Tradition with Local Facade Photo */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center mb-16 sm:mb-20">
           {/* Left Column: Text narrative of family tradition (7 cols) */}
           <div className="lg:col-span-7 space-y-5">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8EFE9] text-[#26402B] text-xs font-semibold uppercase tracking-wider">
-              <Award className="w-3.5 h-3.5 text-[#C27A65]" />
-              <span>Sobre Nosotros • Oficio & Tradición Familiar</span>
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E8EFE9] text-[#26402B] text-xs font-semibold uppercase tracking-wider">
+              <Award className="w-3.5 h-3.5 text-[#26402B]" />
+              <span>Tradición Familiar en Pilar</span>
             </div>
 
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1D2520] tracking-tight leading-[1.15]">
               {catalogoData.trayectoria.titulo}
             </h2>
 
-            <p className="text-lg sm:text-xl text-[#26402B] font-medium leading-relaxed">
+            <p className="text-base sm:text-lg lg:text-xl text-[#3E4D42] leading-relaxed">
               {catalogoData.trayectoria.descripcion}
-            </p>
-
-            <p className="text-sm sm:text-base text-[#5E6D62] leading-relaxed">
-              {catalogoData.trayectoria.historia}
             </p>
 
             {/* Visit invitation notice */}
@@ -68,7 +65,7 @@ export default function AboutLocation() {
                 />
                 <div className="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-2xl pointer-events-none" />
                 <div className="absolute top-3 left-3 bg-[#26402B]/90 backdrop-blur-sm text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-xs">
-                  Puesto Tradicional en Pilar
+                  Puesto Parque Memorial
                 </div>
               </div>
 
@@ -78,7 +75,7 @@ export default function AboutLocation() {
                   &ldquo;{catalogoData.trayectoria.pieDeFotoFachada}&rdquo;
                 </p>
                 <span className="inline-block mt-1.5 text-[11px] text-[#8A968E] uppercase tracking-wider font-semibold">
-                  {catalogoData.negocio.nombre} • Cementerio Memorial
+                  {catalogoData.negocio.nombre} • Parque Memorial
                 </span>
               </figcaption>
             </figure>

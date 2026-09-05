@@ -1,6 +1,6 @@
 import catalogoData from "@/data/catalogo.json";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import { MapPin, Clock, Heart, Phone, Mail } from "lucide-react";
+import { MapPin, Clock, Phone, Mail } from "lucide-react";
 import { InstagramIcon, WhatsAppIcon } from "@/components/Icons";
 import Image from "next/image";
 
@@ -29,7 +29,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-[#BDCEBF] max-w-sm leading-relaxed">
-              Taller floral tradicional con más de 30 años en Pilar. Confeccionamos ramos de estación con flores frescas seleccionadas cada semana en el mercado y realizamos envíos programados a domicilios, countries y servicio de colocación en el predio.
+              Más de 30 años acompañándote con flores frescas, calidez y atención personalizada en Pilar. Confeccionamos ramos de estación en el día con flores de mercado y realizamos envíos a domicilio en la zona.
             </p>
             <div className="flex items-center gap-3 pt-2">
               <a
@@ -66,22 +66,22 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#galeria" className="hover:text-white transition-colors">
-                  Nuestras Flores Habituales
+                  Flores Habituales
                 </a>
               </li>
               <li>
-                <a href="#envios" className="hover:text-white transition-colors">
-                  Envíos a Countries y Pilar
+                <a href="#servicios" className="hover:text-white transition-colors">
+                  Nuestros Servicios
                 </a>
               </li>
               <li>
-                <a href="#eventos" className="hover:text-white transition-colors">
-                  Eventos y Ambientaciones
+                <a href="#historia" className="hover:text-white transition-colors">
+                  Nuestra Historia
                 </a>
               </li>
               <li>
-                <a href="#sobre-nosotros" className="hover:text-white transition-colors">
-                  Sobre Nosotros & Ubicación
+                <a href="#ubicacion" className="hover:text-white transition-colors">
+                  Ubicación & Contacto
                 </a>
               </li>
             </ul>
@@ -90,7 +90,7 @@ export default function Footer() {
           {/* Contact Details (4 cols) */}
           <div className="lg:col-span-4 space-y-3 text-xs sm:text-sm text-[#BDCEBF]">
             <h4 className="font-serif text-base font-bold text-white tracking-wide">
-              Atención & Local
+              Contacto & Atención
             </h4>
             <div className="flex items-start gap-2.5">
               <MapPin className="w-4 h-4 text-[#E2BAA8] shrink-0 mt-0.5" />
@@ -118,10 +118,10 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#8DA091] gap-4">
           <p>
-            © {new Date().getFullYear()} {catalogoData.negocio.nombre}. Tradición familiar en Pilar.
+            © {new Date().getFullYear()} {catalogoData.negocio.nombre}. Atención familiar y tradición floral en Pilar.
           </p>
           <p className="flex items-center gap-1">
-            Diseñado con <Heart className="w-3.5 h-3.5 text-[#C27A65] fill-[#C27A65]" /> para celebrar con flores frescas.
+            Dedicación y respeto por el oficio floral en Pilar.
           </p>
         </div>
       </div>
