@@ -23,7 +23,7 @@
     "badge": "Atención familiar y tradición floral en Pilar",
     "titulo": "Florería Memorial",
     "subtitulo": "Más de 30 años acompañándote con flores frescas, calidez y atención personalizada en Pilar.",
-    "aclaracion": "Ramos de estación confeccionados en el día con flores frescas. Atendemos en nuestro puesto y realizamos envíos a domicilio en la zona.",
+    "aclaracion": "Ramos de estación confeccionados en el día con flores frescas. Atendemos en nuestro local y realizamos envíos a domicilio en la zona.",
     "ctaFlores": "Ver Nuestras Flores",
     "ctaWhatsapp": "Consultar por WhatsApp",
     "mensajeWhatsapp": "Hola, me gustaría consultar por los ramos y flores frescas disponibles en Florería Memorial.",
@@ -87,9 +87,9 @@
       {
         "id": "atencion-envios",
         "titulo": "Envíos a Domicilio y Atención en el Local",
-        "detalle": "Atendemos de forma presencial en nuestro puesto tradicional en el Parque Memorial y coordinamos entregas a domicilio en Pilar, La Lonja y alrededores.",
+        "detalle": "Atendemos de forma presencial en nuestro local tradicional en el Parque Memorial y coordinamos entregas a domicilio en Pilar, La Lonja y alrededores.",
         "boton": "Consultar por WhatsApp",
-        "mensajeWhatsapp": "Hola, quisiera consultar por atención en el puesto y envíos a domicilio en la zona de Pilar."
+        "mensajeWhatsapp": "Hola, quisiera consultar por atención en el local y envíos a domicilio en la zona de Pilar."
       }
     ]
   },
