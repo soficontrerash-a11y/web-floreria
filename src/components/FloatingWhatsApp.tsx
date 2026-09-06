@@ -22,7 +22,7 @@ export default function FloatingWhatsApp() {
           <button
             type="button"
             onClick={() => setTooltipVisible(false)}
-            className="text-[#96A49A] hover:text-[#1D2520] p-1 transition-colors ml-1"
+            className="w-5 h-5 rounded-full hover:bg-[#F0EAE0] flex items-center justify-center text-[#96A49A] hover:text-[#1D2520] transition-colors ml-1"
             aria-label="Cerrar mensaje"
           >
             <X className="w-3.5 h-3.5" />

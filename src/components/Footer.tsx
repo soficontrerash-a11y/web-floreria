@@ -1,6 +1,6 @@
 import catalogoData from "@/data/catalogo.json";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import { MapPin, Clock, Phone, Mail } from "lucide-react";
+import { MapPin, Clock, Mail } from "lucide-react";
 import { InstagramIcon, WhatsAppIcon } from "@/components/Icons";
 import Image from "next/image";
 
@@ -55,7 +55,7 @@ export default function Footer() {
 
           {/* Quick Links (3 cols) */}
           <div className="lg:col-span-3 space-y-3">
-            <h4 className="font-serif text-base font-bold text-white tracking-wide">
+            <h4 className="font-sans text-sm sm:text-base font-bold text-white tracking-wide">
               Secciones
             </h4>
             <ul className="space-y-2 text-xs sm:text-sm text-[#BDCEBF]">
@@ -67,11 +67,6 @@ export default function Footer() {
               <li>
                 <a href="#servicios" className="hover:text-white transition-colors">
                   Nuestros Servicios
-                </a>
-              </li>
-              <li>
-                <a href="#envios" className="hover:text-white transition-colors">
-                  Envíos a Domicilio
                 </a>
               </li>
               <li>
@@ -89,28 +84,32 @@ export default function Footer() {
 
           {/* Contact Details (4 cols) */}
           <div className="lg:col-span-4 space-y-3 text-xs sm:text-sm text-[#BDCEBF]">
-            <h4 className="font-serif text-base font-bold text-white tracking-wide">
+            <h4 className="font-sans text-sm sm:text-base font-bold text-white tracking-wide">
               Contacto & Atención
             </h4>
-            <div className="flex items-start gap-2.5">
-              <MapPin className="w-4 h-4 text-[#E2BAA8] shrink-0 mt-0.5" />
-              <span>{catalogoData.negocio.ubicacion}</span>
+            <div className="flex items-start gap-3">
+              <div className="w-7 h-7 rounded-full bg-[#2E4533] flex items-center justify-center shrink-0 mt-0.5">
+                <MapPin className="w-3.5 h-3.5 text-[#E2BAA8]" />
+              </div>
+              <span className="pt-0.5">{catalogoData.negocio.ubicacion}</span>
             </div>
-            <div className="flex items-start gap-2.5">
-              <Clock className="w-4 h-4 text-[#E2BAA8] shrink-0 mt-0.5" />
-              <span>{catalogoData.negocio.horariosAtencion}</span>
+            <div className="flex items-start gap-3">
+              <div className="w-7 h-7 rounded-full bg-[#2E4533] flex items-center justify-center shrink-0 mt-0.5">
+                <Clock className="w-3.5 h-3.5 text-[#E2BAA8]" />
+              </div>
+              <span className="pt-0.5">{catalogoData.negocio.horariosAtencion}</span>
             </div>
-            <div className="flex items-start gap-2.5">
-              <Phone className="w-4 h-4 text-[#E2BAA8] shrink-0 mt-0.5" />
-              <span>Teléfono Local: {catalogoData.negocio.telefonoFijo}</span>
+            <div className="flex items-start gap-3">
+              <div className="w-7 h-7 rounded-full bg-[#2E4533] flex items-center justify-center shrink-0 mt-0.5">
+                <WhatsAppIcon className="w-3.5 h-3.5 text-[#E2BAA8] fill-current" />
+              </div>
+              <span className="pt-0.5">WhatsApp: {catalogoData.negocio.telefonoMostrar}</span>
             </div>
-            <div className="flex items-start gap-2.5">
-              <WhatsAppIcon className="w-4 h-4 text-[#E2BAA8] shrink-0 mt-0.5" />
-              <span>WhatsApp: {catalogoData.negocio.telefonoMostrar}</span>
-            </div>
-            <div className="flex items-start gap-2.5">
-              <Mail className="w-4 h-4 text-[#E2BAA8] shrink-0 mt-0.5" />
-              <span>{catalogoData.negocio.email}</span>
+            <div className="flex items-start gap-3">
+              <div className="w-7 h-7 rounded-full bg-[#2E4533] flex items-center justify-center shrink-0 mt-0.5">
+                <Mail className="w-3.5 h-3.5 text-[#E2BAA8]" />
+              </div>
+              <span className="pt-0.5">{catalogoData.negocio.email}</span>
             </div>
           </div>
         </div>

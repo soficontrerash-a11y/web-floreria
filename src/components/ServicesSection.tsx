@@ -37,10 +37,10 @@ export default function ServicesSection() {
                 className="bg-white rounded-3xl p-7 sm:p-8 border border-[#E8E2D8] shadow-xs hover:border-[#26402B]/40 hover:shadow-md transition-all flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-2xl bg-[#E8EFE9] border border-[#D5E0D7] flex items-center justify-center mb-5">
+                  <div className="w-12 h-12 rounded-full bg-[#E8EFE9] border border-[#D5E0D7] flex items-center justify-center mb-5">
                     {iconMap[propuesta.id]}
                   </div>
-                  <h3 className="font-serif text-xl sm:text-2xl font-bold text-[#1D2520] mb-3 leading-snug">
+                  <h3 className="font-sans text-lg sm:text-xl font-bold text-[#1D2520] mb-3 leading-snug">
                     {propuesta.titulo}
                   </h3>
                   <p className="text-sm text-[#5E6D62] leading-relaxed mb-6">
@@ -53,9 +53,11 @@ export default function ServicesSection() {
                     href={whatsappUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full inline-flex items-center justify-center gap-2 bg-[#FAF7F2] hover:bg-[#25D366] text-[#26402B] hover:text-white border border-[#E0D7CB] hover:border-[#25D366] font-semibold text-sm py-3 px-4 rounded-xl transition-all shadow-2xs group"
+                    className="w-full inline-flex items-center justify-center gap-2.5 bg-[#FAF7F2] hover:bg-[#25D366] text-[#26402B] hover:text-white border border-[#E0D7CB] hover:border-[#25D366] font-semibold text-sm py-3 px-4 rounded-xl transition-all shadow-2xs group"
                   >
-                    <WhatsAppIcon className="w-4 h-4 fill-current transition-colors" />
+                    <span className="w-6 h-6 rounded-full bg-black/5 group-hover:bg-white/20 flex items-center justify-center transition-colors shrink-0">
+                      <WhatsAppIcon className="w-3.5 h-3.5 fill-current transition-colors" />
+                    </span>
                     <span>{propuesta.boton}</span>
                   </a>
                 </div>

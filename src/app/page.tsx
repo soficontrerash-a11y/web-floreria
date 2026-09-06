@@ -1,9 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import FlowerGallery from "@/components/FlowerGallery";
-import ServicesSection from "@/components/ServicesSection";
-import DeliverySection from "@/components/DeliverySection";
 import InstagramBanner from "@/components/InstagramBanner";
+import ServicesSection from "@/components/ServicesSection";
 import AboutLocation from "@/components/AboutLocation";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
@@ -19,19 +18,16 @@ export default function Home() {
         {/* 1. Portada */}
         <Hero />
 
-        {/* 2. Nuestras Flores Habituales */}
+        {/* 2. Flores de Estación */}
         <FlowerGallery />
 
-        {/* 3. Nuestros Servicios (Colocación, Eventos, Atención y Envíos) */}
-        <ServicesSection />
-
-        {/* 4. Envíos a Domicilio */}
-        <DeliverySection />
-
-        {/* 5. Novedades en Instagram */}
+        {/* 3. Novedades en Instagram */}
         <InstagramBanner />
 
-        {/* 6. Nuestra Historia y Ubicación en Parque Memorial */}
+        {/* 4. Nuestros Servicios (Colocación, Eventos, Atención y Envíos) */}
+        <ServicesSection />
+
+        {/* 5. Nuestra Historia y Ubicación en Parque Memorial */}
         <AboutLocation />
       </main>
 

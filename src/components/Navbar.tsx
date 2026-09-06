@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import catalogoData from "@/data/catalogo.json";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { WhatsAppIcon } from "@/components/Icons";
 
 export default function Navbar() {
@@ -14,7 +14,6 @@ export default function Navbar() {
   const navLinks = [
     { label: "Flores de Estación", href: "#galeria" },
     { label: "Servicios", href: "#servicios" },
-    { label: "Envíos", href: "#envios" },
     { label: "Nuestra Historia", href: "#historia" },
     { label: "Ubicación", href: "#ubicacion" },
   ];
@@ -67,13 +66,6 @@ export default function Navbar() {
           {/* Direct Actions (Desktop) */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href={`tel:${catalogoData.negocio.telefonoWhatsapp}`}
-              className="flex items-center gap-2 text-xs font-semibold text-[#5E6D62] hover:text-[#26402B] transition-colors"
-            >
-              <Phone className="w-3.5 h-3.5 text-[#26402B]" />
-              <span>{catalogoData.negocio.telefonoMostrar}</span>
-            </a>
-            <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -98,7 +90,7 @@ export default function Navbar() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg text-[#1D2520] hover:bg-[#F0EAE1] transition-colors"
+              className="p-2 rounded-full text-[#1D2520] hover:bg-[#F0EAE1] transition-colors"
               aria-label="Abrir menú"
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -130,7 +122,9 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
               className="w-full flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold py-3 rounded-xl transition-all shadow-sm"
             >
-              <WhatsAppIcon className="w-5 h-5 fill-white" />
+              <span className="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                <WhatsAppIcon className="w-4 h-4 fill-white" />
+              </span>
               <span>Consultar por WhatsApp</span>
             </a>
             <p className="text-xs text-center text-[#5E6D62] pt-1">

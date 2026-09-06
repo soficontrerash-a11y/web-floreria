@@ -1,21 +1,17 @@
 import catalogoData from "@/data/catalogo.json";
-import { getWhatsAppUrl } from "@/lib/whatsapp";
 import { Flower2 } from "lucide-react";
-import { WhatsAppIcon } from "@/components/Icons";
 import Image from "next/image";
 
 export default function FlowerGallery() {
-  const generalWhatsappUrl = getWhatsAppUrl(
-    "Hola, quisiera consultar por el stock disponible de flores de esta semana en Florería Memorial."
-  );
-
   return (
     <section id="galeria" className="py-16 sm:py-24 bg-[#F4EFE6] relative scroll-mt-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E8EFE9] text-[#26402B] text-xs font-semibold uppercase tracking-wider mb-3">
-            <Flower2 className="w-3.5 h-3.5 text-[#26402B]" />
+            <div className="w-5 h-5 rounded-full bg-[#26402B]/10 flex items-center justify-center shrink-0">
+              <Flower2 className="w-3.5 h-3.5 text-[#26402B]" />
+            </div>
             <span>Flores de Estación</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1D2520] tracking-tight mb-4">
@@ -27,7 +23,7 @@ export default function FlowerGallery() {
         </div>
 
         {/* Flower Grid (6 cards: photo and flower name) */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {catalogoData.floresHabituales.items.map((flor) => (
             <div
               key={flor.id}
@@ -47,25 +43,12 @@ export default function FlowerGallery() {
 
               {/* Card footer: Only Name */}
               <div className="p-5 text-center bg-white border-t border-[#F0EAE0]">
-                <h3 className="font-serif text-lg sm:text-xl font-bold text-[#1D2520]">
+                <h3 className="font-sans text-lg sm:text-xl font-bold text-[#1D2520]">
                   {flor.nombre}
                 </h3>
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Prominent CTA below cards */}
-        <div className="text-center">
-          <a
-            href={generalWhatsappUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2.5 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-base px-8 py-4 rounded-xl transition-all shadow-md hover:shadow-lg hover:translate-y-[-1px] active:translate-y-0"
-          >
-            <WhatsAppIcon className="w-5 h-5 fill-white" />
-            <span>Consultar disponibilidad por WhatsApp</span>
-          </a>
         </div>
       </div>
     </section>

@@ -1,6 +1,6 @@
 import catalogoData from "@/data/catalogo.json";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import { MapPin, Clock, Phone, Award, Heart, Sparkles, Mail, ExternalLink, Navigation } from "lucide-react";
+import { MapPin, Clock, Phone, Award, Heart, Sparkles, Mail, Navigation } from "lucide-react";
 import { WhatsAppIcon, InstagramIcon } from "@/components/Icons";
 import Image from "next/image";
 
@@ -16,7 +16,9 @@ export default function AboutLocation() {
           {/* Left Column: Text narrative of family tradition (7 cols) */}
           <div className="lg:col-span-7 space-y-5">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E8EFE9] text-[#26402B] text-xs font-semibold uppercase tracking-wider">
-              <Award className="w-3.5 h-3.5 text-[#26402B]" />
+              <div className="w-5 h-5 rounded-full bg-[#26402B]/10 flex items-center justify-center shrink-0">
+                <Award className="w-3.5 h-3.5 text-[#26402B]" />
+              </div>
               <span>Tradición Familiar en Pilar</span>
             </div>
 
@@ -29,12 +31,16 @@ export default function AboutLocation() {
             </p>
 
             <div className="pt-2 flex flex-wrap items-center gap-3 text-xs font-semibold text-[#3E4D42]">
-              <div className="flex items-center gap-2 bg-white px-3.5 py-2 rounded-xl border border-[#E8E0D2] shadow-2xs">
-                <Sparkles className="w-4 h-4 text-[#C27A65]" />
+              <div className="flex items-center gap-2.5 bg-white px-3.5 py-2 rounded-xl border border-[#E8E0D2] shadow-2xs">
+                <div className="w-6 h-6 rounded-full bg-[#C27A65]/15 flex items-center justify-center shrink-0">
+                  <Sparkles className="w-3.5 h-3.5 text-[#C27A65]" />
+                </div>
                 <span>+30 años de oficio ininterrumpido</span>
               </div>
-              <div className="flex items-center gap-2 bg-white px-3.5 py-2 rounded-xl border border-[#E8E0D2] shadow-2xs">
-                <Heart className="w-4 h-4 text-[#C27A65]" />
+              <div className="flex items-center gap-2.5 bg-white px-3.5 py-2 rounded-xl border border-[#E8E0D2] shadow-2xs">
+                <div className="w-6 h-6 rounded-full bg-[#C27A65]/15 flex items-center justify-center shrink-0">
+                  <Heart className="w-3.5 h-3.5 text-[#C27A65]" />
+                </div>
                 <span>Atención familiar y personalizada</span>
               </div>
             </div>
@@ -61,7 +67,7 @@ export default function AboutLocation() {
 
               {/* Warm required caption */}
               <figcaption className="pt-4 pb-1 px-2 text-center">
-                <p className="font-serif italic text-sm sm:text-base text-[#3E4D42] leading-relaxed">
+                <p className="font-sans italic text-sm sm:text-base text-[#3E4D42] leading-relaxed">
                   &ldquo;{catalogoData.trayectoria.pieDeFotoFachada}&rdquo;
                 </p>
                 <span className="inline-block mt-1.5 text-[11px] text-[#8A968E] uppercase tracking-wider font-semibold">
@@ -81,7 +87,7 @@ export default function AboutLocation() {
                 <span className="text-xs font-bold uppercase tracking-wider text-[#C27A65]">
                   {catalogoData.trayectoria.localTitulo}
                 </span>
-                <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#1D2520] mt-1 mb-4">
+                <h3 className="font-sans text-xl sm:text-2xl font-bold text-[#1D2520] mt-1 mb-4">
                   {catalogoData.trayectoria.localNombre}
                 </h3>
 
@@ -89,7 +95,7 @@ export default function AboutLocation() {
                 <div className="space-y-4 text-sm text-[#3E4D42]">
                   {/* Address */}
                   <div className="flex items-start gap-3">
-                    <div className="p-2 rounded-lg bg-[#FAF7F2] border border-[#ECE5DA] shrink-0 mt-0.5">
+                    <div className="w-10 h-10 rounded-full bg-[#FAF7F2] border border-[#ECE5DA] flex items-center justify-center shrink-0 mt-0.5">
                       <MapPin className="w-4 h-4 text-[#26402B]" />
                     </div>
                     <div>
@@ -102,7 +108,7 @@ export default function AboutLocation() {
 
                   {/* Hours */}
                   <div className="flex items-start gap-3">
-                    <div className="p-2 rounded-lg bg-[#FAF7F2] border border-[#ECE5DA] shrink-0 mt-0.5">
+                    <div className="w-10 h-10 rounded-full bg-[#FAF7F2] border border-[#ECE5DA] flex items-center justify-center shrink-0 mt-0.5">
                       <Clock className="w-4 h-4 text-[#26402B]" />
                     </div>
                     <div>
@@ -118,7 +124,7 @@ export default function AboutLocation() {
 
                   {/* Phones */}
                   <div className="flex items-start gap-3">
-                    <div className="p-2 rounded-lg bg-[#FAF7F2] border border-[#ECE5DA] shrink-0 mt-0.5">
+                    <div className="w-10 h-10 rounded-full bg-[#FAF7F2] border border-[#ECE5DA] flex items-center justify-center shrink-0 mt-0.5">
                       <Phone className="w-4 h-4 text-[#26402B]" />
                     </div>
                     <div>
@@ -134,7 +140,7 @@ export default function AboutLocation() {
 
                   {/* Email & Instagram */}
                   <div className="flex items-start gap-3">
-                    <div className="p-2 rounded-lg bg-[#FAF7F2] border border-[#ECE5DA] shrink-0 mt-0.5">
+                    <div className="w-10 h-10 rounded-full bg-[#FAF7F2] border border-[#ECE5DA] flex items-center justify-center shrink-0 mt-0.5">
                       <Mail className="w-4 h-4 text-[#26402B]" />
                     </div>
                     <div>
@@ -144,8 +150,10 @@ export default function AboutLocation() {
                           {catalogoData.negocio.email}
                         </a>
                       </p>
-                      <p className="text-xs sm:text-sm text-[#5E6D62] mt-0.5 flex items-center gap-1.5">
-                        <InstagramIcon className="w-3.5 h-3.5 text-[#E1306C]" />
+                      <p className="text-xs sm:text-sm text-[#5E6D62] mt-0.5 flex items-center gap-2">
+                        <span className="w-5 h-5 rounded-full bg-[#E1306C]/10 flex items-center justify-center shrink-0">
+                          <InstagramIcon className="w-3 h-3 text-[#E1306C]" />
+                        </span>
                         <a href={catalogoData.negocio.instagramUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#E1306C] underline">
                           @{catalogoData.negocio.instagramUser}
                         </a>
@@ -161,20 +169,23 @@ export default function AboutLocation() {
                   href={catalogoData.negocio.googleMapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-[#203223] hover:bg-[#162419] text-white font-semibold text-xs sm:text-sm px-5 py-3 rounded-xl transition-all shadow-xs group"
+                  className="inline-flex items-center justify-center gap-2.5 bg-[#203223] hover:bg-[#162419] text-white font-semibold text-xs sm:text-sm px-5 py-3 rounded-xl transition-all shadow-xs group"
                 >
-                  <Navigation className="w-4 h-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                  <span className="w-6 h-6 rounded-full bg-white/15 flex items-center justify-center shrink-0">
+                    <Navigation className="w-3.5 h-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                  </span>
                   <span>Ver en Google Maps o cómo llegar</span>
-                  <ExternalLink className="w-3.5 h-3.5 opacity-70" />
                 </a>
 
                 <a
                   href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-xs sm:text-sm px-5 py-3 rounded-xl transition-all shadow-xs"
+                  className="inline-flex items-center justify-center gap-2.5 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-xs sm:text-sm px-5 py-3 rounded-xl transition-all shadow-xs"
                 >
-                  <WhatsAppIcon className="w-4 h-4 fill-white" />
+                  <span className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                    <WhatsAppIcon className="w-3.5 h-3.5 fill-white" />
+                  </span>
                   <span>Escribir al WhatsApp</span>
                 </a>
               </div>
@@ -200,7 +211,9 @@ export default function AboutLocation() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-white/95 backdrop-blur-md text-[#203223] hover:bg-white text-xs font-bold px-3.5 py-2 rounded-lg shadow-md border border-[#E8E2D8] transition-all"
                 >
-                  <Navigation className="w-3.5 h-3.5 text-[#26402B]" />
+                  <span className="w-5 h-5 rounded-full bg-[#26402B]/10 flex items-center justify-center shrink-0">
+                    <Navigation className="w-3 h-3 text-[#26402B]" />
+                  </span>
                   <span>Cómo llegar</span>
                 </a>
               </div>
