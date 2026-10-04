@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
+import defaultEvents from "@/data/analytics-events.json";
 
 export interface AnalyticsEvent {
   id: string;
@@ -44,7 +45,11 @@ export async function getEvents(): Promise<AnalyticsEvent[]> {
       return parsed;
     }
   } catch {
-    // File not found or empty
+    // Check bundled data
+  }
+
+  if (Array.isArray(defaultEvents) && defaultEvents.length > 0) {
+    return defaultEvents as AnalyticsEvent[];
   }
 
   // Generate baseline seed events for realistic test report
