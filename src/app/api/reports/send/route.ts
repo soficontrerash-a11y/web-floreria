@@ -4,7 +4,7 @@ import { sendWeeklyReport } from "@/lib/mailer";
 export async function GET(req: NextRequest) {
   try {
     const url = new URL(req.url);
-    const recipient = url.searchParams.get("recipient") || "soficontrerash@gmail.com";
+    const recipient = url.searchParams.get("recipient") || "floresdelparquemontoya@gmail.com";
 
     const result = await sendWeeklyReport(recipient);
 
@@ -20,7 +20,7 @@ export async function GET(req: NextRequest) {
 
 export async function POST(req: NextRequest) {
   try {
-    let recipient = "soficontrerash@gmail.com";
+    let recipient = "floresdelparquemontoya@gmail.com";
     try {
       const body = await req.json();
       if (body.recipient) recipient = body.recipient;

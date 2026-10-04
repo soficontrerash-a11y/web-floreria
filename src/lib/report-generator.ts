@@ -240,7 +240,7 @@ export function generateReportHtml(metrics: ReportMetrics): string {
           <tr>
             <td style="padding: 24px 30px 12px 30px;">
               <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #3E4D42;">
-                Hola <strong>Sofía</strong>, te enviamos el resumen de interacción de la página web de <strong>Florería Memorial</strong> con el detalle de visitas y clics salientes hacia <strong>WhatsApp</strong>, <strong>Instagram</strong> y <strong>Google Maps</strong>.
+                Hola equipo de <strong>Florería Memorial</strong>, les enviamos el resumen de interacción de la página web con el detalle de visitas y clics salientes hacia <strong>WhatsApp</strong>, <strong>Instagram</strong> y <strong>Google Maps</strong>.
               </p>
             </td>
           </tr>
@@ -379,7 +379,7 @@ export function generateReportHtml(metrics: ReportMetrics): string {
               </p>
               <p style="margin: 0; line-height: 1.4;">
                 Este reporte fue generado automáticamente por el sistema de analíticas de la web.<br>
-                Destinatario configurado: <strong style="color: #26402B;">soficontrerash@gmail.com</strong>
+                Destinatario configurado: <strong style="color: #26402B;">floresdelparquemontoya@gmail.com</strong>
               </p>
             </td>
           </tr>

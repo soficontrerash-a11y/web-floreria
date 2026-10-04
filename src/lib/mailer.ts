@@ -11,7 +11,7 @@ export interface SendReportResult {
 }
 
 export async function sendWeeklyReport(
-  targetRecipient: string = process.env.REPORT_RECIPIENT || "soficontrerash@gmail.com"
+  targetRecipient: string = process.env.REPORT_RECIPIENT || "floresdelparquemontoya@gmail.com"
 ): Promise<SendReportResult> {
   const metrics = await calculateMetrics(7);
   const htmlContent = generateReportHtml(metrics);

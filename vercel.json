@@ -1,7 +1,7 @@
 {
   "crons": [
     {
-      "path": "/api/reports/send?recipient=soficontrerash@gmail.com",
+      "path": "/api/reports/send?recipient=floresdelparquemontoya@gmail.com",
       "schedule": "0 12 * * 1"
     }
   ]

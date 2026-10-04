@@ -245,7 +245,7 @@ function generateReportHtml(metrics) {
               </p>
               <p style="margin: 0; line-height: 1.4;">
                 Este reporte fue generado automáticamente por el sistema de analíticas de la web.<br>
-                Destinatario configurado: <strong style="color: #26402B;">soficontrerash@gmail.com</strong>
+                Destinatario configurado: <strong style="color: #26402B;">floresdelparquemontoya@gmail.com</strong>
               </p>
             </td>
           </tr>
@@ -262,7 +262,7 @@ function generateReportHtml(metrics) {
 async function main() {
   await loadEnv();
 
-  const recipient = process.argv[2] || process.env.REPORT_RECIPIENT || "soficontrerash@gmail.com";
+  const recipient = process.argv[2] || process.env.REPORT_RECIPIENT || "floresdelparquemontoya@gmail.com";
   console.log(`\n🌿 Iniciando despacho de reporte semanal para: ${recipient}`);
 
   const dataFile = path.join(projectRoot, "src", "data", "analytics-events.json");
