@@ -1,0 +1,1483 @@
+[
+  {
+    "id": "seed-1",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-2",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-3",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-4",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-5",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-6",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-7",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-8",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-9",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-10",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-11",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-12",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-13",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-14",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-15",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-16",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-17",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-18",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-19",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-20",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-21",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-22",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-23",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-24",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-25",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-26",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-27",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-28",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-29",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-30",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-31",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-32",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-33",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-34",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-35",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-36",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-37",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-38",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-39",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-40",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-41",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-42",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-43",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-44",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-45",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-46",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-47",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-48",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-49",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-50",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-51",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-52",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-53",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-54",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-55",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-56",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-57",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-58",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-59",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-60",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-61",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-62",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-63",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-64",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-65",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-66",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-67",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-68",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-69",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-70",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-71",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-72",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-73",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-74",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-75",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-76",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-77",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-78",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-79",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-80",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-81",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-82",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-83",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-84",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-85",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-86",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-87",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-88",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-89",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-90",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-91",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-92",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-93",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-94",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-95",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-96",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-97",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-98",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-99",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-100",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-101",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-102",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-103",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-104",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-105",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-106",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-107",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-108",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-109",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-110",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-111",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-112",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-113",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-114",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-115",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-116",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-117",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-118",
+    "eventType": "page_view",
+    "trafficType": "organico",
+    "placement": "homepage",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-119",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-120",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-121",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-122",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-123",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-124",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-125",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-126",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-127",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-128",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-129",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-130",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-131",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-132",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-133",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-134",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-135",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-136",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-137",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-138",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-139",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-140",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-141",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-142",
+    "eventType": "page_view",
+    "trafficType": "ads",
+    "placement": "homepage",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-143",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-144",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-145",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-146",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-147",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-148",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-149",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-150",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-151",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-152",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-153",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-154",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-155",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-156",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "flotante",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-157",
+    "eventType": "click_whatsapp",
+    "trafficType": "ads",
+    "placement": "hero",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-158",
+    "eventType": "click_whatsapp",
+    "trafficType": "ads",
+    "placement": "hero",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-159",
+    "eventType": "click_whatsapp",
+    "trafficType": "ads",
+    "placement": "hero",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-160",
+    "eventType": "click_whatsapp",
+    "trafficType": "ads",
+    "placement": "hero",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-161",
+    "eventType": "click_whatsapp",
+    "trafficType": "ads",
+    "placement": "hero",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-162",
+    "eventType": "click_whatsapp",
+    "trafficType": "ads",
+    "placement": "hero",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-163",
+    "eventType": "click_whatsapp",
+    "trafficType": "ads",
+    "placement": "hero",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-164",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "servicios",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-165",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "servicios",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-166",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "servicios",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-167",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "servicios",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-168",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "servicios",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-169",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "navbar",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-170",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "navbar",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-171",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "navbar",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-172",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "footer",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-173",
+    "eventType": "click_whatsapp",
+    "trafficType": "organico",
+    "placement": "footer",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-174",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-175",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-176",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-177",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-178",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-179",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-180",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-181",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-182",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-183",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-184",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-185",
+    "eventType": "click_google_maps",
+    "trafficType": "organico",
+    "placement": "ubicacion_boton",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-186",
+    "eventType": "click_google_maps",
+    "trafficType": "ads",
+    "placement": "mapa_overlay",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-187",
+    "eventType": "click_google_maps",
+    "trafficType": "ads",
+    "placement": "mapa_overlay",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-188",
+    "eventType": "click_google_maps",
+    "trafficType": "ads",
+    "placement": "mapa_overlay",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-189",
+    "eventType": "click_google_maps",
+    "trafficType": "ads",
+    "placement": "mapa_overlay",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-190",
+    "eventType": "click_google_maps",
+    "trafficType": "ads",
+    "placement": "mapa_overlay",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-191",
+    "eventType": "click_google_maps",
+    "trafficType": "ads",
+    "placement": "mapa_overlay",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-192",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "banner",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-193",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "banner",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-194",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "banner",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-195",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "banner",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-196",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "banner",
+    "timestamp": "2026-09-30T12:33:07.976Z"
+  },
+  {
+    "id": "seed-197",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "banner",
+    "timestamp": "2026-09-29T12:33:07.976Z"
+  },
+  {
+    "id": "seed-198",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "banner",
+    "timestamp": "2026-09-28T12:33:07.976Z"
+  },
+  {
+    "id": "seed-199",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "banner",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-200",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "banner",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-201",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "footer",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-202",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "footer",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  },
+  {
+    "id": "seed-203",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "footer",
+    "timestamp": "2026-10-02T12:33:07.976Z"
+  },
+  {
+    "id": "seed-204",
+    "eventType": "click_instagram",
+    "trafficType": "organico",
+    "placement": "footer",
+    "timestamp": "2026-10-01T12:33:07.976Z"
+  },
+  {
+    "id": "seed-205",
+    "eventType": "click_instagram",
+    "trafficType": "ads",
+    "placement": "banner",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-04T12:33:07.976Z"
+  },
+  {
+    "id": "seed-206",
+    "eventType": "click_instagram",
+    "trafficType": "ads",
+    "placement": "banner",
+    "gclid": "CjwKCAjw_seed_gclid",
+    "timestamp": "2026-10-03T12:33:07.976Z"
+  }
+]

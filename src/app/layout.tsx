@@ -47,6 +47,8 @@ export const viewport: Viewport = {
   maximumScale: 5,
 };
 
+import AnalyticsProvider from "@/components/AnalyticsProvider";
+
 export default function RootLayout({
   children,
 }: {
@@ -55,7 +57,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${playfair.variable} ${sans.variable} scroll-smooth`}>
       <body className="font-sans antialiased bg-[#FAF7F2] text-[#1D2520] selection:bg-[#426148] selection:text-white">
-        {children}
+        <AnalyticsProvider>{children}</AnalyticsProvider>
       </body>
     </html>
   );
