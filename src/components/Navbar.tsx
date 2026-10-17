@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Brand Logo & Name */}
           <a href="#" className="flex items-center gap-3 group">
-            <div className="relative w-12 h-12 rounded-full overflow-hidden border border-[#D5CBC0] bg-white shadow-sm shrink-0 transition-transform group-hover:scale-105">
+            <div className="relative w-12 h-12 rounded-full overflow-hidden border border-[#D5CBC0] bg-[#01410d] shadow-sm shrink-0 transition-transform group-hover:scale-105">
               <Image
                 src={catalogoData.negocio.logo || "/logo.jpg"}
                 alt="Logo Florería Memorial"
