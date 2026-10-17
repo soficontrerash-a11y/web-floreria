@@ -1,12 +1,18 @@
 import { calculateMetrics } from "@/lib/report-generator";
-import { ArrowLeft, ExternalLink, MessageCircle, MapPin, Globe, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, ExternalLink, MessageCircle, MapPin, Globe, CheckCircle2, Calendar, TrendingUp } from "lucide-react";
 import { InstagramIcon } from "@/components/Icons";
 import Link from "next/link";
 
 export const dynamic = "force-dynamic";
 
-export default async function ReportePage() {
-  const metrics = await calculateMetrics(7);
+interface PageProps {
+  searchParams?: Promise<{ semana?: string }>;
+}
+
+export default async function ReportePage({ searchParams }: PageProps) {
+  const resolvedParams = searchParams ? await searchParams : {};
+  const selectedWeekKey = resolvedParams?.semana || "anterior";
+  const metrics = await calculateMetrics(selectedWeekKey);
 
   const placementLabels: Record<string, string> = {
     flotante: "Botón Flotante Permanente",
@@ -42,27 +48,84 @@ export default async function ReportePage() {
             <ArrowLeft className="w-4 h-4" />
             <span>Volver a la web</span>
           </Link>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8EFE9] text-[#26402B] text-xs font-bold tracking-wide">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E8EFE9] text-[#26402B] text-xs font-bold tracking-wide">
             <span className="w-2 h-2 rounded-full bg-[#25D366] animate-pulse" />
-            <span>Panel en Vivo • Sin Claves</span>
+            <span>Actualización Semanal Automática los Lunes</span>
           </div>
         </div>
 
         {/* Header Hero */}
         <div className="bg-[#26402B] text-white rounded-3xl p-8 sm:p-10 shadow-xl relative overflow-hidden">
           <div className="relative z-10 space-y-3">
-            <span className="text-xs uppercase tracking-widest text-[#E2BAA8] font-bold">
-              Analíticas Semanales
-            </span>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-xs uppercase tracking-widest text-[#E2BAA8] font-bold">
+              <Calendar className="w-3.5 h-3.5" />
+              <span>{metrics.isCurrentWeek ? "Semana en Curso" : "Semana Cerrada"}</span>
+            </div>
             <h1 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-[#FAF7F2]">
-              Florería Memorial
+              Florería Memorial — Analíticas Semanales
             </h1>
-            <p className="text-sm sm:text-base text-[#D0DDD2] max-w-xl">
-              Rendimiento semanal del <strong>{metrics.periodStart}</strong> al{" "}
-              <strong>{metrics.periodEnd}</strong>. Medición de visitas a la página y clics en
-              WhatsApp, Instagram y Google Maps.
+            <p className="text-sm sm:text-base text-[#D0DDD2] max-w-2xl">
+              Período de medición: del <strong>{metrics.periodStart}</strong> al{" "}
+              <strong>{metrics.periodEnd}</strong>. Datos consolidados de visitas web y conversiones
+              salientes a WhatsApp, Instagram y Google Maps.
             </p>
           </div>
+        </div>
+
+        {/* Week Selector Tabs */}
+        <div className="space-y-3">
+          <div className="flex items-center justify-between text-xs text-[#5E6D62] font-semibold px-1">
+            <span>Seleccionar período semanal:</span>
+            <span>Próximo corte: {metrics.nextCutoff}</span>
+          </div>
+          <div className="flex flex-wrap items-center gap-2 p-1.5 bg-[#EAE3D7]/70 rounded-2xl border border-[#DFD5C6]">
+            {metrics.availableWeeks.map((week) => {
+              const isActive = week.key === metrics.weekKey;
+              return (
+                <Link
+                  key={week.key}
+                  href={`?semana=${week.key}`}
+                  className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
+                    isActive
+                      ? "bg-[#26402B] text-white shadow-sm"
+                      : "text-[#3E4D42] hover:text-[#1D2520] hover:bg-white/80"
+                  }`}
+                >
+                  {week.isCurrent ? (
+                    <span className="w-2 h-2 rounded-full bg-[#25D366] animate-pulse" />
+                  ) : (
+                    <Calendar className="w-3 h-3 opacity-70" />
+                  )}
+                  <span>{week.label}</span>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Status Callout Banner */}
+        <div className="bg-white border border-[#E8E2D8] rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-xs">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-full bg-[#E8EFE9] flex items-center justify-center text-[#26402B] shrink-0">
+              <CheckCircle2 className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="font-bold text-sm text-[#1D2520]">
+                {metrics.isCurrentWeek
+                  ? "Semana actual en curso (acumulando datos hasta el domingo)"
+                  : "Semana cerrada oficial de los lunes"}
+              </div>
+              <div className="text-xs text-[#5E6D62]">
+                Período: {metrics.periodStart} al {metrics.periodEnd}
+              </div>
+            </div>
+          </div>
+          {metrics.growthVsPreviousWeek && (
+            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#E8EFE9] text-[#26402B] text-xs font-bold shrink-0">
+              <TrendingUp className="w-4 h-4 text-[#26402B]" />
+              <span>{metrics.growthVsPreviousWeek} vs semana previa</span>
+            </div>
+          )}
         </div>
 
         {/* 4 KPI Cards Grid */}
@@ -223,7 +286,7 @@ export default async function ReportePage() {
         {/* Quick Actions (Email & WhatsApp Share) */}
         <div className="bg-white border border-[#E8E2D8] rounded-2xl p-6 sm:p-8 space-y-4">
           <h2 className="font-bold text-base text-[#1D2520]">
-            Acciones Rápidas (Sin necesidad de claves)
+            Acciones Rápidas del Período
           </h2>
           <div className="flex flex-col sm:flex-row gap-3.5">
             <a

@@ -1,10 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs/promises";
 import path from "path";
+import defaultEvents from "@/data/analytics-events.json";
 
 const DATA_FILE = path.join(process.cwd(), "src", "data", "analytics-events.json");
+const TMP_FILE = path.join("/tmp", "analytics-events.json");
 
-interface AnalyticsEvent {
+// In-memory cache for the serverless runtime lifetime
+let memoryEvents: AnalyticsEvent[] = [];
+
+export interface AnalyticsEvent {
   id: string;
   eventType: string;
   trafficType: string;
@@ -18,21 +23,64 @@ interface AnalyticsEvent {
   timestamp: string;
 }
 
-async function readEvents(): Promise<AnalyticsEvent[]> {
+export async function readEvents(): Promise<AnalyticsEvent[]> {
+  if (memoryEvents.length > 0) {
+    return memoryEvents;
+  }
+
+  // 1. Try reading from project directory (local dev)
   try {
     const data = await fs.readFile(DATA_FILE, "utf-8");
-    return JSON.parse(data);
+    const parsed = JSON.parse(data);
+    if (Array.isArray(parsed) && parsed.length > 0) {
+      memoryEvents = parsed;
+      return memoryEvents;
+    }
   } catch {
-    return [];
+    // Continue
   }
+
+  // 2. Try reading from /tmp (writable in serverless)
+  try {
+    const tmpData = await fs.readFile(TMP_FILE, "utf-8");
+    const parsed = JSON.parse(tmpData);
+    if (Array.isArray(parsed) && parsed.length > 0) {
+      memoryEvents = parsed;
+      return memoryEvents;
+    }
+  } catch {
+    // Continue
+  }
+
+  // 3. Fallback to bundled events
+  if (Array.isArray(defaultEvents)) {
+    memoryEvents = [...defaultEvents] as AnalyticsEvent[];
+    return memoryEvents;
+  }
+
+  return [];
 }
 
 async function saveEvents(events: AnalyticsEvent[]): Promise<void> {
-  const dir = path.dirname(DATA_FILE);
-  await fs.mkdir(dir, { recursive: true });
-  // Keep last 10,000 events
   const trimmed = events.slice(-10000);
-  await fs.writeFile(DATA_FILE, JSON.stringify(trimmed, null, 2), "utf-8");
+  memoryEvents = trimmed;
+
+  // 1. Try writing to local project file (works in local dev)
+  try {
+    const dir = path.dirname(DATA_FILE);
+    await fs.mkdir(dir, { recursive: true });
+    await fs.writeFile(DATA_FILE, JSON.stringify(trimmed, null, 2), "utf-8");
+    return;
+  } catch {
+    // Read-only filesystem in Vercel serverless
+  }
+
+  // 2. Try writing to /tmp (works in Vercel serverless lambda)
+  try {
+    await fs.writeFile(TMP_FILE, JSON.stringify(trimmed, null, 2), "utf-8");
+  } catch {
+    // Memory cache persists for runtime lifetime
+  }
 }
 
 export async function POST(req: NextRequest) {

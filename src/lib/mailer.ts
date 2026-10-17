@@ -11,9 +11,10 @@ export interface SendReportResult {
 }
 
 export async function sendWeeklyReport(
-  targetRecipient: string = process.env.REPORT_RECIPIENT || "floresdelparquemontoya@gmail.com"
+  targetRecipient: string = process.env.REPORT_RECIPIENT || "floresdelparquemontoya@gmail.com",
+  weekKey: string = "anterior"
 ): Promise<SendReportResult> {
-  const metrics = await calculateMetrics(7);
+  const metrics = await calculateMetrics(weekKey);
   const htmlContent = generateReportHtml(metrics);
   const subject = `🌿 Reporte Semanal Florería Memorial — ${metrics.periodStart} al ${metrics.periodEnd}`;
 
