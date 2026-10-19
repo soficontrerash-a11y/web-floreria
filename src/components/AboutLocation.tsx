@@ -1,6 +1,6 @@
 import catalogoData from "@/data/catalogo.json";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import { MapPin, Clock, Phone, Award, Heart, Sparkles, Mail, Navigation } from "lucide-react";
+import { MapPin, Clock, Award, Heart, Sparkles, Mail, Navigation } from "lucide-react";
 import { WhatsAppIcon, InstagramIcon } from "@/components/Icons";
 import Image from "next/image";
 
@@ -122,16 +122,13 @@ export default function AboutLocation() {
                     </div>
                   </div>
 
-                  {/* Phones */}
+                  {/* Contact */}
                   <div className="flex items-start gap-3">
                     <div className="w-10 h-10 rounded-full bg-[#FAF7F2] border border-[#ECE5DA] flex items-center justify-center shrink-0 mt-0.5">
-                      <Phone className="w-4 h-4 text-[#26402B]" />
+                      <WhatsAppIcon className="w-4 h-4 text-[#26402B]" />
                     </div>
                     <div>
-                      <p className="font-semibold text-[#1D2520]">Teléfonos de Contacto</p>
-                      <p className="text-xs sm:text-sm text-[#5E6D62] mt-0.5">
-                        Teléfono Local: <a href={`tel:${catalogoData.negocio.telefonoFijo.replace(/\s+/g, '')}`} className="font-medium hover:text-[#26402B] underline">{catalogoData.negocio.telefonoFijo}</a>
-                      </p>
+                      <p className="font-semibold text-[#1D2520]">Contactanos</p>
                       <p className="text-xs sm:text-sm text-[#5E6D62] mt-0.5">
                         WhatsApp: <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="font-medium text-[#25D366] hover:underline">{catalogoData.negocio.telefonoMostrar}</a>
                       </p>
